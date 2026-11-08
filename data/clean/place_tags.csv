@@ -1,0 +1,744 @@
+﻿restaurant_id,tag,confidence,support,source
+r_005870abd55c,không gian đẹp,0.854,32,ai
+r_00761e1c035e,không gian đẹp,0.746,9,ai
+r_014deacaab7d,không gian đẹp,0.964,46,ai
+r_03d9603cfd78,không gian đẹp,0.942,54,ai
+r_04b39ae22bc6,không gian đẹp,0.703,7,ai
+r_0628ca812ed3,không gian đẹp,0.744,8,ai
+r_06e597c959a5,không gian đẹp,1.0,66,ai
+r_06f913956d8e,không gian đẹp,0.914,16,ai
+r_07baa2d13284,không gian đẹp,0.929,20,ai
+r_09fa41ba390d,không gian đẹp,0.874,20,ai
+r_0ad8b4eb7986,không gian đẹp,0.854,9,ai
+r_0ae4c07067e7,không gian đẹp,0.739,31,ai
+r_102c3a1c86c1,không gian đẹp,0.764,15,ai
+r_11206fa2db5c,không gian đẹp,0.924,56,ai
+r_1204f8168579,không gian đẹp,0.764,10,ai
+r_12cf2829cc59,không gian đẹp,0.889,40,ai
+r_147ac8fc9f92,không gian đẹp,0.771,6,ai
+r_15a25f8edc3c,không gian đẹp,0.771,15,ai
+r_18f8cdc685d7,không gian đẹp,0.715,7,ai
+r_1ab60ae3c640,không gian đẹp,0.667,18,ai
+r_1c43b57aba9d,không gian đẹp,0.854,55,ai
+r_1f4e593e06e2,không gian đẹp,0.865,50,ai
+r_233e2874d0ed,không gian đẹp,0.815,19,ai
+r_248e8fa91488,không gian đẹp,0.739,7,ai
+r_2703cb0651bb,không gian đẹp,0.863,52,ai
+r_27706b5fe2ca,không gian đẹp,0.964,18,ai
+r_28062f288b4a,không gian đẹp,0.691,6,ai
+r_289fbe4c1996,không gian đẹp,0.887,59,ai
+r_28c98843b807,không gian đẹp,0.857,10,ai
+r_2c1a35715a37,không gian đẹp,0.759,7,ai
+r_31d7627fa141,không gian đẹp,0.779,12,ai
+r_3233d5c2eae2,không gian đẹp,0.742,10,ai
+r_3873d0f3c83b,không gian đẹp,0.689,11,ai
+r_38c64792d302,không gian đẹp,0.866,32,ai
+r_3999b0286b60,không gian đẹp,0.779,43,ai
+r_3b1d2ceeb17a,không gian đẹp,0.678,15,ai
+r_3d6c125f04ef,không gian đẹp,1.0,65,ai
+r_3e12ab0e3e2f,không gian đẹp,0.801,46,ai
+r_458005221b5f,không gian đẹp,0.779,34,ai
+r_49d2c40d8b1a,không gian đẹp,0.895,33,ai
+r_4b0695fd852a,không gian đẹp,0.669,6,ai
+r_4b9cc09b0cd1,không gian đẹp,0.805,33,ai
+r_4f2b414a1fbb,không gian đẹp,0.695,9,ai
+r_521f66dd0357,không gian đẹp,0.907,11,ai
+r_5355560380a0,không gian đẹp,0.741,5,ai
+r_53933ef535eb,không gian đẹp,1.0,72,ai
+r_566c72c415fa,không gian đẹp,0.76,46,ai
+r_58d5f706804e,không gian đẹp,0.966,22,ai
+r_5c9bf2c94533,không gian đẹp,0.733,5,ai
+r_5e38d13985d7,không gian đẹp,0.865,9,ai
+r_61c9171f634e,không gian đẹp,0.674,6,ai
+r_63172cf37611,không gian đẹp,0.765,7,ai
+r_66c9c9df0de6,không gian đẹp,1.0,35,ai
+r_69fec76bd50a,không gian đẹp,0.953,30,ai
+r_70809fea0131,không gian đẹp,0.859,31,ai
+r_71337993714b,không gian đẹp,0.897,28,ai
+r_71c32209b1ac,không gian đẹp,0.937,54,ai
+r_757ecb714966,không gian đẹp,0.828,10,ai
+r_76822f0a17d6,không gian đẹp,0.955,15,ai
+r_7687c70bb6c6,không gian đẹp,0.824,47,ai
+r_7986daf0c05b,không gian đẹp,0.691,7,ai
+r_7c1a4cca3331,không gian đẹp,0.776,11,ai
+r_7f7d7ca4f329,không gian đẹp,0.691,12,ai
+r_8368c52dcf39,không gian đẹp,0.804,10,ai
+r_8374dbd3b471,không gian đẹp,0.772,35,ai
+r_84d2ffa12b62,không gian đẹp,0.737,6,ai
+r_87643d6a9aa5,không gian đẹp,0.763,43,ai
+r_887dd8d5d86f,không gian đẹp,0.879,14,ai
+r_888b881eb194,không gian đẹp,1.0,31,ai
+r_891fa1188665,không gian đẹp,0.764,27,ai
+r_8af79a6d2abb,không gian đẹp,1.0,27,ai
+r_8b8f2f2e082f,không gian đẹp,0.739,9,ai
+r_8c42b11390f9,không gian đẹp,0.816,20,ai
+r_8fcd84890df1,không gian đẹp,1.0,59,ai
+r_90f3fb723db2,không gian đẹp,0.767,7,ai
+r_913378910fdc,không gian đẹp,0.865,16,ai
+r_9a29fb97307e,không gian đẹp,0.803,15,ai
+r_a09701194fa0,không gian đẹp,1.0,20,ai
+r_a1fa2ea3363a,không gian đẹp,1.0,88,ai
+r_a57c27db2ac5,không gian đẹp,0.828,51,ai
+r_a8e4be0ab504,không gian đẹp,0.862,52,ai
+r_afc26db1bc78,không gian đẹp,0.731,40,ai
+r_b33f95c218ea,không gian đẹp,0.749,19,ai
+r_b645a84288ae,không gian đẹp,0.683,21,ai
+r_b751ef806c77,không gian đẹp,0.822,13,ai
+r_b9fdd79bc24c,không gian đẹp,0.673,35,ai
+r_bda32362ff44,không gian đẹp,0.713,12,ai
+r_be50c3105fcf,không gian đẹp,1.0,49,ai
+r_cf7c09068f4e,không gian đẹp,0.722,6,ai
+r_d31331fca9f7,không gian đẹp,0.753,15,ai
+r_d409a242e402,không gian đẹp,0.731,20,ai
+r_d4d270b2a322,không gian đẹp,0.73,36,ai
+r_d5f867623f90,không gian đẹp,0.689,6,ai
+r_db2feffdaff2,không gian đẹp,0.692,5,ai
+r_e69c75f6d384,không gian đẹp,1.0,58,ai
+r_ea849faa77c3,không gian đẹp,0.853,13,ai
+r_ec9a10a51f01,không gian đẹp,1.0,67,ai
+r_ecbac135cab7,không gian đẹp,0.8,21,ai
+r_ed7950c2a35e,không gian đẹp,0.917,20,ai
+r_eeb26ab514d7,không gian đẹp,0.809,21,ai
+r_efaa3fdeb960,không gian đẹp,0.855,11,ai
+r_f423fcd3f231,không gian đẹp,0.804,24,ai
+r_fa864a301a9b,không gian đẹp,0.697,6,ai
+r_fda89a040e8e,không gian đẹp,0.687,18,ai
+r_fe96a7fd31da,không gian đẹp,1.0,29,ai
+r_06f913956d8e,lãng mạn,0.834,2,ai
+r_0ad8b4eb7986,lãng mạn,1.0,7,ai
+r_15a25f8edc3c,lãng mạn,1.0,7,ai
+r_1c43b57aba9d,lãng mạn,0.721,4,ai
+r_28c98843b807,lãng mạn,1.0,4,ai
+r_3873d0f3c83b,lãng mạn,0.825,2,ai
+r_3d6c125f04ef,lãng mạn,0.723,4,ai
+r_71337993714b,lãng mạn,0.799,3,ai
+r_757ecb714966,lãng mạn,1.0,5,ai
+r_888b881eb194,lãng mạn,1.0,18,ai
+r_a09701194fa0,lãng mạn,0.825,2,ai
+r_a1fa2ea3363a,lãng mạn,1.0,45,ai
+r_e69c75f6d384,lãng mạn,1.0,10,ai
+r_e836823bccb3,lãng mạn,0.809,2,ai
+r_fe96a7fd31da,lãng mạn,0.745,3,ai
+r_07baa2d13284,yên tĩnh,0.982,4,ai
+r_0ae4c07067e7,yên tĩnh,1.0,10,ai
+r_1204f8168579,yên tĩnh,0.839,2,ai
+r_12cf2829cc59,yên tĩnh,0.684,2,ai
+r_15a25f8edc3c,yên tĩnh,0.767,2,ai
+r_1c43b57aba9d,yên tĩnh,0.758,8,ai
+r_1c80cd921481,yên tĩnh,1.0,5,ai
+r_27706b5fe2ca,yên tĩnh,0.79,3,ai
+r_28c98843b807,yên tĩnh,0.862,2,ai
+r_38c64792d302,yên tĩnh,0.898,7,ai
+r_3b1d2ceeb17a,yên tĩnh,0.749,2,ai
+r_521f66dd0357,yên tĩnh,1.0,6,ai
+r_59593f79d301,yên tĩnh,0.667,2,ai
+r_5c9bf2c94533,yên tĩnh,1.0,3,ai
+r_63172cf37611,yên tĩnh,0.889,2,ai
+r_66c9c9df0de6,yên tĩnh,1.0,19,ai
+r_71c32209b1ac,yên tĩnh,0.962,10,ai
+r_757ecb714966,yên tĩnh,1.0,3,ai
+r_7634db783859,yên tĩnh,0.694,2,ai
+r_7f7d7ca4f329,yên tĩnh,0.815,5,ai
+r_891fa1188665,yên tĩnh,0.698,2,ai
+r_8b8f2f2e082f,yên tĩnh,0.693,2,ai
+r_8fcd84890df1,yên tĩnh,0.944,13,ai
+r_913378910fdc,yên tĩnh,0.799,3,ai
+r_96808d3807c0,yên tĩnh,0.705,2,ai
+r_a09701194fa0,yên tĩnh,1.0,4,ai
+r_a1fa2ea3363a,yên tĩnh,1.0,34,ai
+r_abd02c3e58ea,yên tĩnh,0.948,2,ai
+r_ae496a130e3c,yên tĩnh,0.804,2,ai
+r_b33f95c218ea,yên tĩnh,0.7,4,ai
+r_b645a84288ae,yên tĩnh,0.779,3,ai
+r_b751ef806c77,yên tĩnh,0.804,2,ai
+r_be50c3105fcf,yên tĩnh,0.683,5,ai
+r_be5fa6d8c76f,yên tĩnh,1.0,4,ai
+r_e0bbed17c5b2,yên tĩnh,0.777,6,ai
+r_ea849faa77c3,yên tĩnh,0.981,3,ai
+r_ec9a10a51f01,yên tĩnh,0.77,10,ai
+r_f65bafaae700,yên tĩnh,0.718,3,ai
+r_fe96a7fd31da,yên tĩnh,0.749,4,ai
+r_06e597c959a5,view đẹp,0.794,12,ai
+r_12cf2829cc59,view đẹp,1.0,17,ai
+r_147ac8fc9f92,view đẹp,0.81,2,ai
+r_15a25f8edc3c,view đẹp,0.775,4,ai
+r_1a0625c3164c,view đẹp,0.774,10,ai
+r_1c80cd921481,view đẹp,0.879,5,ai
+r_27706b5fe2ca,view đẹp,0.939,5,ai
+r_289fbe4c1996,view đẹp,0.864,13,ai
+r_28c98843b807,view đẹp,1.0,10,ai
+r_2a642c516d6a,view đẹp,0.892,2,ai
+r_31d7627fa141,view đẹp,0.766,3,ai
+r_3d6c125f04ef,view đẹp,1.0,19,ai
+r_3e12ab0e3e2f,view đẹp,0.684,8,ai
+r_43aad34bb776,view đẹp,0.712,7,ai
+r_49d2c40d8b1a,view đẹp,1.0,14,ai
+r_4b9cc09b0cd1,view đẹp,0.814,8,ai
+r_4f2b414a1fbb,view đẹp,0.812,3,ai
+r_53933ef535eb,view đẹp,0.763,10,ai
+r_5a2292a71b0b,view đẹp,0.828,2,ai
+r_5db2a3eb5e5f,view đẹp,0.793,4,ai
+r_61c9171f634e,view đẹp,0.885,3,ai
+r_69fec76bd50a,view đẹp,0.8,6,ai
+r_6d6d523a0464,view đẹp,0.869,2,ai
+r_71337993714b,view đẹp,0.72,5,ai
+r_757ecb714966,view đẹp,1.0,5,ai
+r_76822f0a17d6,view đẹp,1.0,6,ai
+r_7687c70bb6c6,view đẹp,1.0,14,ai
+r_7f7d7ca4f329,view đẹp,1.0,9,ai
+r_812b5b02c6e4,view đẹp,0.952,5,ai
+r_815821f553c0,view đẹp,0.963,3,ai
+r_829dd180e3a8,view đẹp,0.869,3,ai
+r_8368c52dcf39,view đẹp,0.703,2,ai
+r_8374dbd3b471,view đẹp,1.0,23,ai
+r_887dd8d5d86f,view đẹp,0.766,3,ai
+r_888b881eb194,view đẹp,1.0,22,ai
+r_891fa1188665,view đẹp,0.919,10,ai
+r_8af79a6d2abb,view đẹp,0.83,5,ai
+r_8b8f2f2e082f,view đẹp,1.0,8,ai
+r_8fcd84890df1,view đẹp,0.964,16,ai
+r_926dbfed6fcb,view đẹp,0.802,11,ai
+r_a55fb760e9c1,view đẹp,0.892,12,ai
+r_a8e4be0ab504,view đẹp,0.825,12,ai
+r_a976957b6244,view đẹp,0.693,8,ai
+r_afc26db1bc78,view đẹp,0.796,11,ai
+r_b59bf3895365,view đẹp,0.828,2,ai
+r_b645a84288ae,view đẹp,0.691,5,ai
+r_b9fdd79bc24c,view đẹp,0.802,11,ai
+r_bda32362ff44,view đẹp,1.0,7,ai
+r_be50c3105fcf,view đẹp,1.0,15,ai
+r_d4d270b2a322,view đẹp,1.0,19,ai
+r_e69c75f6d384,view đẹp,1.0,22,ai
+r_ea849faa77c3,view đẹp,1.0,9,ai
+r_f019a83c3a77,view đẹp,0.697,3,ai
+r_fda89a040e8e,view đẹp,0.868,6,ai
+r_fe4eff3ba6cb,view đẹp,0.704,7,ai
+r_fe96a7fd31da,view đẹp,1.0,21,ai
+r_12cf2829cc59,riêng tư,0.876,3,ai
+r_14467a527258,riêng tư,0.852,2,ai
+r_2703cb0651bb,riêng tư,1.0,6,ai
+r_318c62b4ec79,riêng tư,1.0,3,ai
+r_458005221b5f,riêng tư,0.783,3,ai
+r_891fa1188665,riêng tư,0.808,3,ai
+r_a09701194fa0,riêng tư,0.96,2,ai
+r_a1fa2ea3363a,riêng tư,0.683,2,ai
+r_a8e4be0ab504,riêng tư,0.976,7,ai
+r_bda32362ff44,riêng tư,0.864,2,ai
+r_e91d3ea84535,riêng tư,0.87,4,ai
+r_005870abd55c,món ngon,0.84,46,ai
+r_00761e1c035e,món ngon,0.776,14,ai
+r_014deacaab7d,món ngon,0.875,63,ai
+r_03d9603cfd78,món ngon,0.782,78,ai
+r_05b828951895,món ngon,0.55,14,ai
+r_0628ca812ed3,món ngon,0.852,11,ai
+r_06e597c959a5,món ngon,0.53,77,ai
+r_06f913956d8e,món ngon,0.878,15,ai
+r_07119f700d8c,món ngon,0.931,71,ai
+r_09622f50b630,món ngon,0.705,6,ai
+r_0adc62343f3d,món ngon,0.691,5,ai
+r_0f02247b5ec0,món ngon,0.946,50,ai
+r_102c3a1c86c1,món ngon,0.629,20,ai
+r_12cf2829cc59,món ngon,0.796,47,ai
+r_14f141f50254,món ngon,0.527,37,ai
+r_1a3a40178e19,món ngon,0.867,27,ai
+r_1b24027adda6,món ngon,0.618,4,ai
+r_1b7786d1b7f4,món ngon,0.726,6,ai
+r_1b922fd4418e,món ngon,0.823,10,ai
+r_1bab3042765b,món ngon,0.952,52,ai
+r_1f4e593e06e2,món ngon,0.7,76,ai
+r_20c7c1c9c5a5,món ngon,0.773,8,ai
+r_2340b7fa63c9,món ngon,0.887,17,ai
+r_23a5483f2b5f,món ngon,0.873,14,ai
+r_248e8fa91488,món ngon,0.805,9,ai
+r_27706b5fe2ca,món ngon,0.744,20,ai
+r_2aa160f175f8,món ngon,0.966,59,ai
+r_2c1a35715a37,món ngon,0.802,8,ai
+r_2cbc4aad6641,món ngon,0.673,5,ai
+r_2d6b75d0b172,món ngon,0.515,7,ai
+r_2d7f176133e5,món ngon,0.717,6,ai
+r_2f3ea8e7fbdd,món ngon,0.911,71,ai
+r_30d2b3f9d482,món ngon,0.755,7,ai
+r_322861f977cf,món ngon,0.676,17,ai
+r_360fb3c596a0,món ngon,0.67,37,ai
+r_36d9c5da5f41,món ngon,0.87,14,ai
+r_3b1d2ceeb17a,món ngon,0.559,29,ai
+r_3ed522de9232,món ngon,0.96,56,ai
+r_4059aa09c6fc,món ngon,0.779,8,ai
+r_419d67e0ae68,món ngon,0.996,83,ai
+r_41c19e1bc418,món ngon,0.972,65,ai
+r_49a0e29d6f7e,món ngon,0.761,7,ai
+r_4a8f00fc7a17,món ngon,0.585,8,ai
+r_4b0049a3932e,món ngon,0.682,5,ai
+r_4b5887b12eb3,món ngon,0.679,5,ai
+r_4d244a244d41,món ngon,0.955,53,ai
+r_521f66dd0357,món ngon,0.864,13,ai
+r_52def889d4d4,món ngon,0.758,23,ai
+r_53933ef535eb,món ngon,0.79,86,ai
+r_54ccfaed7d2c,món ngon,0.855,12,ai
+r_5935a5c00fa5,món ngon,0.735,6,ai
+r_5a238c268fbe,món ngon,0.703,5,ai
+r_5ac59131a22f,món ngon,0.764,7,ai
+r_5dca6443f23a,món ngon,0.943,79,ai
+r_5e9cd34f40c9,món ngon,0.831,86,ai
+r_5eaac07c3b45,món ngon,0.978,69,ai
+r_5f42260ea32d,món ngon,0.834,10,ai
+r_6075e323ea77,món ngon,0.919,32,ai
+r_61c9171f634e,món ngon,0.708,10,ai
+r_63172cf37611,món ngon,0.788,8,ai
+r_66c9c9df0de6,món ngon,0.799,40,ai
+r_66d8c3e3d0ae,món ngon,0.738,6,ai
+r_68a317459dd5,món ngon,0.975,66,ai
+r_6b2c8ca90907,món ngon,0.993,82,ai
+r_6d8a627edecf,món ngon,0.635,14,ai
+r_6f6514e2955f,món ngon,0.626,4,ai
+r_7003c77551e5,món ngon,0.811,9,ai
+r_70275ce47464,món ngon,0.817,9,ai
+r_70809fea0131,món ngon,0.916,30,ai
+r_71337993714b,món ngon,0.752,44,ai
+r_71c32209b1ac,món ngon,0.881,85,ai
+r_729df704afc6,món ngon,0.77,7,ai
+r_7634db783859,món ngon,0.969,61,ai
+r_765670c52d62,món ngon,0.89,74,ai
+r_78bbd015c88f,món ngon,0.958,55,ai
+r_7a574e09f4e1,món ngon,0.667,5,ai
+r_7bcf9a057457,món ngon,0.884,17,ai
+r_7f3533adfea8,món ngon,0.905,81,ai
+r_7f7d7ca4f329,món ngon,0.571,10,ai
+r_815821f553c0,món ngon,0.644,4,ai
+r_829dd180e3a8,món ngon,0.65,8,ai
+r_86cff243392c,món ngon,0.849,18,ai
+r_891fa1188665,món ngon,0.858,21,ai
+r_8a8125b27bfc,món ngon,0.741,6,ai
+r_8c12edd99d60,món ngon,0.82,9,ai
+r_8d94a1aafc3c,món ngon,0.565,7,ai
+r_90608574bdbf,món ngon,0.963,59,ai
+r_90f3fb723db2,món ngon,0.829,10,ai
+r_94d9b4029357,món ngon,0.606,4,ai
+r_953b0df6a8b6,món ngon,0.688,5,ai
+r_96040ef04b94,món ngon,0.949,51,ai
+r_969fdc080c66,món ngon,0.638,16,ai
+r_98672ea53ad1,món ngon,0.928,69,ai
+r_9a9718ae391d,món ngon,0.723,6,ai
+r_9c7a136dc5e6,món ngon,0.524,8,ai
+r_9e85f41e97eb,món ngon,0.538,70,ai
+r_9ea9946f7cd3,món ngon,0.785,17,ai
+r_9ecabf329ba7,món ngon,0.908,48,ai
+r_a09701194fa0,món ngon,0.582,21,ai
+r_a1299dcbc3ff,món ngon,0.749,14,ai
+r_a17cfe3ed5f5,món ngon,0.609,10,ai
+r_a1fa2ea3363a,món ngon,0.661,77,ai
+r_a3f25cc0eef1,món ngon,0.562,4,ai
+r_a44c7044fca1,món ngon,0.914,51,ai
+r_a976957b6244,món ngon,0.99,78,ai
+r_ac8baf6b8ff4,món ngon,0.981,75,ai
+r_af3fd4dd1ff2,món ngon,0.553,3,ai
+r_b279e506da3b,món ngon,0.861,42,ai
+r_b309096d52bd,món ngon,0.664,5,ai
+r_b316a7d93e58,món ngon,0.899,69,ai
+r_b41e7d845281,món ngon,0.729,6,ai
+r_b43e868e568f,món ngon,0.612,4,ai
+r_b5b9bfc72ff9,món ngon,0.843,11,ai
+r_b5e338b22269,món ngon,0.533,31,ai
+r_b751ef806c77,món ngon,0.902,21,ai
+r_b86a65dbbfcc,món ngon,0.659,65,ai
+r_bd2e9e399a15,món ngon,0.826,10,ai
+r_bf1d55ea49e3,món ngon,0.999,90,ai
+r_c31de79aa14c,món ngon,0.506,73,ai
+r_c501ce8c6b18,món ngon,0.94,89,ai
+r_c8fef48ebaf5,món ngon,0.793,30,ai
+r_cb1dbbedb99a,món ngon,0.632,13,ai
+r_cebbb38a199e,món ngon,0.653,15,ai
+r_cf1edf3fba85,món ngon,0.984,75,ai
+r_cf7c09068f4e,món ngon,0.732,6,ai
+r_d31331fca9f7,món ngon,0.576,16,ai
+r_d7e014799816,món ngon,0.925,83,ai
+r_d98d2d7673d5,món ngon,0.714,6,ai
+r_dae091cc27ea,món ngon,0.808,9,ai
+r_db2feffdaff2,món ngon,0.656,5,ai
+r_db61416f469b,món ngon,0.697,24,ai
+r_debb6f72b9c4,món ngon,0.72,6,ai
+r_e065cc98fdda,món ngon,0.568,12,ai
+r_e47f964c8248,món ngon,0.922,33,ai
+r_e5d256149c42,món ngon,0.837,32,ai
+r_e88094ccad3a,món ngon,0.512,3,ai
+r_ecbac135cab7,món ngon,0.814,33,ai
+r_ed18a4f83d93,món ngon,0.685,5,ai
+r_ed7950c2a35e,món ngon,0.547,25,ai
+r_edfcaeb66ba0,món ngon,0.846,11,ai
+r_f1c2f0e19dda,món ngon,0.767,7,ai
+r_f2c6b1604023,món ngon,0.896,19,ai
+r_f3c8698e69f6,món ngon,0.694,5,ai
+r_f423fcd3f231,món ngon,0.937,46,ai
+r_f517bdfe9210,món ngon,0.746,6,ai
+r_f537eb09d5bd,món ngon,0.893,31,ai
+r_f6aa2912fb55,món ngon,0.987,76,ai
+r_f824fe4d16f1,món ngon,0.711,23,ai
+r_f8c7fc50c18a,món ngon,0.647,77,ai
+r_f9586c09891c,món ngon,0.509,20,ai
+r_fc19e7feb20f,món ngon,0.641,17,ai
+r_fe29bad41ff6,món ngon,0.934,66,ai
+r_fe4eff3ba6cb,món ngon,0.535,54,ai
+r_005870abd55c,phục vụ tốt,0.925,29,ai
+r_00761e1c035e,phục vụ tốt,0.878,10,ai
+r_014deacaab7d,phục vụ tốt,0.987,47,ai
+r_0280d6d54c28,phục vụ tốt,0.902,37,ai
+r_03d9603cfd78,phục vụ tốt,0.96,41,ai
+r_04b39ae22bc6,phục vụ tốt,0.919,8,ai
+r_05b4593ff284,phục vụ tốt,0.623,3,ai
+r_05b828951895,phục vụ tốt,0.585,13,ai
+r_0628ca812ed3,phục vụ tốt,0.937,10,ai
+r_06e597c959a5,phục vụ tốt,0.673,34,ai
+r_07119f700d8c,phục vụ tốt,0.867,5,ai
+r_07baa2d13284,phục vụ tốt,0.691,14,ai
+r_09fa41ba390d,phục vụ tốt,0.553,14,ai
+r_0f02247b5ec0,phục vụ tốt,0.535,2,ai
+r_11206fa2db5c,phục vụ tốt,0.597,42,ai
+r_12cf2829cc59,phục vụ tốt,0.931,56,ai
+r_14467a527258,phục vụ tốt,0.535,2,ai
+r_147ac8fc9f92,phục vụ tốt,0.896,6,ai
+r_14f141f50254,phục vụ tốt,0.609,13,ai
+r_15a25f8edc3c,phục vụ tốt,0.829,13,ai
+r_1ab60ae3c640,phục vụ tốt,0.697,14,ai
+r_1bab3042765b,phục vụ tốt,0.969,16,ai
+r_1ef05c549cfe,phục vụ tốt,0.916,8,ai
+r_1f4e593e06e2,phục vụ tốt,0.805,46,ai
+r_20b636731467,phục vụ tốt,0.87,9,ai
+r_223fd3f97573,phục vụ tốt,0.62,3,ai
+r_230d02673718,phục vụ tốt,0.535,2,ai
+r_233e2874d0ed,phục vụ tốt,0.984,20,ai
+r_2340b7fa63c9,phục vụ tốt,0.576,2,ai
+r_2625e5c66858,phục vụ tốt,0.79,27,ai
+r_26828c704086,phục vụ tốt,0.626,3,ai
+r_26f053480d88,phục vụ tốt,0.562,4,ai
+r_2c1a35715a37,phục vụ tốt,0.711,7,ai
+r_2f3ea8e7fbdd,phục vụ tốt,0.776,4,ai
+r_30d2b3f9d482,phục vụ tốt,0.509,2,ai
+r_318c62b4ec79,phục vụ tốt,0.629,5,ai
+r_322861f977cf,phục vụ tốt,0.843,5,ai
+r_337edcf50bc0,phục vụ tốt,0.764,22,ai
+r_360fb3c596a0,phục vụ tốt,0.594,8,ai
+r_3873d0f3c83b,phục vụ tốt,0.746,13,ai
+r_3999b0286b60,phục vụ tốt,0.82,32,ai
+r_3b1d2ceeb17a,phục vụ tốt,0.682,13,ai
+r_3d6c125f04ef,phục vụ tốt,0.767,43,ai
+r_3eceb840b852,phục vụ tốt,0.588,2,ai
+r_3ed522de9232,phục vụ tốt,0.966,15,ai
+r_40019e186f2e,phục vụ tốt,0.67,3,ai
+r_40889569c803,phục vụ tốt,0.591,4,ai
+r_41c19e1bc418,phục vụ tốt,0.826,5,ai
+r_43830d646bec,phục vụ tốt,0.506,2,ai
+r_43f751f94c2f,phục vụ tốt,0.688,3,ai
+r_458005221b5f,phục vụ tốt,0.963,35,ai
+r_4b0695fd852a,phục vụ tốt,0.565,4,ai
+r_4b10540b3119,phục vụ tốt,0.893,20,ai
+r_4b9cc09b0cd1,phục vụ tốt,0.814,27,ai
+r_521f66dd0357,phục vụ tốt,0.861,5,ai
+r_52def889d4d4,phục vụ tốt,0.749,9,ai
+r_535d93c4039d,phục vụ tốt,0.761,10,ai
+r_53933ef535eb,phục vụ tốt,0.726,46,ai
+r_54ccfaed7d2c,phục vụ tốt,0.653,3,ai
+r_5a2292a71b0b,phục vụ tốt,0.679,3,ai
+r_5ac59131a22f,phục vụ tốt,0.535,2,ai
+r_5c1c8673dd38,phục vụ tốt,0.644,8,ai
+r_5c9bf2c94533,phục vụ tốt,0.846,5,ai
+r_5e38d13985d7,phục vụ tốt,0.641,6,ai
+r_5e9cd34f40c9,phục vụ tốt,0.793,18,ai
+r_5eaac07c3b45,phục vụ tốt,0.89,6,ai
+r_6075e323ea77,phục vụ tốt,0.934,10,ai
+r_61a569fe29cf,phục vụ tốt,0.738,3,ai
+r_61c9171f634e,phục vụ tốt,0.899,6,ai
+r_66c9c9df0de6,phục vụ tốt,0.512,23,ai
+r_68a317459dd5,phục vụ tốt,0.996,29,ai
+r_6ad181c06bef,phục vụ tốt,0.77,4,ai
+r_6b2c8ca90907,phục vụ tốt,0.975,24,ai
+r_6bb59fe83ef1,phục vụ tốt,0.744,4,ai
+r_70809fea0131,phục vụ tốt,0.999,31,ai
+r_71337993714b,phục vụ tốt,0.94,14,ai
+r_71c32209b1ac,phục vụ tốt,0.993,46,ai
+r_729df704afc6,phục vụ tốt,0.7,3,ai
+r_74e1cf85eca7,phục vụ tốt,0.55,18,ai
+r_7634db783859,phục vụ tốt,0.834,5,ai
+r_76822f0a17d6,phục vụ tốt,0.855,10,ai
+r_79d1b27b8e7a,phục vụ tốt,0.796,8,ai
+r_7c1a4cca3331,phục vụ tốt,0.664,6,ai
+r_7c74cf5a0943,phục vụ tốt,0.582,28,ai
+r_7efccfa6d149,phục vụ tốt,0.579,14,ai
+r_7f3533adfea8,phục vụ tốt,0.556,2,ai
+r_825771ed3936,phục vụ tốt,0.817,12,ai
+r_829dd180e3a8,phục vụ tốt,0.656,9,ai
+r_8368c52dcf39,phục vụ tốt,0.515,4,ai
+r_8374dbd3b471,phục vụ tốt,0.571,35,ai
+r_87643d6a9aa5,phục vụ tốt,0.723,36,ai
+r_87ddd51f389c,phục vụ tốt,0.559,20,ai
+r_891fa1188665,phục vụ tốt,0.972,17,ai
+r_8af79a6d2abb,phục vụ tốt,0.881,20,ai
+r_8b69c9e1179e,phục vụ tốt,0.849,5,ai
+r_8fcd84890df1,phục vụ tốt,0.659,40,ai
+r_90608574bdbf,phục vụ tốt,0.911,7,ai
+r_923fc1a3a6cf,phục vụ tốt,0.574,2,ai
+r_96040ef04b94,phục vụ tốt,0.922,8,ai
+r_969fdc080c66,phục vụ tốt,0.72,9,ai
+r_98672ea53ad1,phục vụ tốt,0.837,7,ai
+r_9ecabf329ba7,phục vụ tốt,0.741,4,ai
+r_9fa8f7af8626,phục vụ tốt,0.676,22,ai
+r_a09701194fa0,phục vụ tốt,0.905,10,ai
+r_a1299dcbc3ff,phục vụ tốt,0.875,5,ai
+r_a1fa2ea3363a,phục vụ tốt,0.981,64,ai
+r_a3f25cc0eef1,phục vụ tốt,0.615,3,ai
+r_a532b18b5281,phục vụ tốt,0.732,8,ai
+r_a976957b6244,phục vụ tốt,0.958,12,ai
+r_aba28d98c88c,phục vụ tốt,0.782,4,ai
+r_ac8baf6b8ff4,phục vụ tốt,0.914,7,ai
+r_adc4bad48f32,phục vụ tốt,0.547,15,ai
+r_af3fd4dd1ff2,phục vụ tốt,0.5,2,ai
+r_afc26db1bc78,phục vụ tốt,0.884,31,ai
+r_b279e506da3b,phục vụ tốt,0.524,3,ai
+r_b2af8ee0956d,phục vụ tốt,0.568,5,ai
+r_b316a7d93e58,phục vụ tốt,0.949,11,ai
+r_b41e7d845281,phục vụ tốt,0.752,4,ai
+r_b43e868e568f,phục vụ tốt,0.667,3,ai
+r_b5813d473c10,phục vụ tốt,0.955,17,ai
+r_b59bf3895365,phục vụ tốt,0.84,5,ai
+r_b5b9bfc72ff9,phục vụ tốt,0.6,2,ai
+r_b751ef806c77,phục vụ tốt,0.864,10,ai
+r_b86a65dbbfcc,phục vụ tốt,0.823,12,ai
+r_bf1d55ea49e3,phục vụ tốt,0.661,3,ai
+r_bfd4c3581f64,phục vụ tốt,0.65,3,ai
+r_c31de79aa14c,phục vụ tốt,0.978,35,ai
+r_c501ce8c6b18,phục vụ tốt,0.99,26,ai
+r_c8fef48ebaf5,phục vụ tốt,0.952,11,ai
+r_cdfceaa6b822,phục vụ tốt,0.703,3,ai
+r_cf1edf3fba85,phục vụ tốt,0.785,4,ai
+r_cf7c09068f4e,phục vụ tốt,0.632,5,ai
+r_d3d27eaec12f,phục vụ tốt,0.729,36,ai
+r_d5f867623f90,phục vụ tốt,0.852,5,ai
+r_d6beee12f6e7,phục vụ tốt,0.831,5,ai
+r_d7e014799816,phục vụ tốt,0.708,3,ai
+r_d98d2d7673d5,phục vụ tốt,0.603,2,ai
+r_d9b350f7c6e4,phục vụ tốt,0.705,3,ai
+r_db2feffdaff2,phục vụ tốt,0.694,3,ai
+r_e0bbed17c5b2,phục vụ tốt,0.758,48,ai
+r_e47f964c8248,phục vụ tốt,0.799,4,ai
+r_e7323f009618,phục vụ tốt,0.858,5,ai
+r_ea849faa77c3,phục vụ tốt,0.735,7,ai
+r_eb40cbdb6f9e,phục vụ tốt,0.908,7,ai
+r_ecbac135cab7,phục vụ tốt,0.779,28,ai
+r_ed7950c2a35e,phục vụ tốt,0.717,14,ai
+r_ede23f0fba8e,phục vụ tốt,0.943,21,ai
+r_edfcaeb66ba0,phục vụ tốt,0.802,4,ai
+r_eeb26ab514d7,phục vụ tốt,0.873,17,ai
+r_f1c2f0e19dda,phục vụ tốt,0.518,5,ai
+r_f2c6b1604023,phục vụ tốt,0.606,2,ai
+r_f517bdfe9210,phục vụ tốt,0.788,4,ai
+r_f537eb09d5bd,phục vụ tốt,0.618,3,ai
+r_f6aa2912fb55,phục vụ tốt,0.773,4,ai
+r_f8c7fc50c18a,phục vụ tốt,0.928,24,ai
+r_f9587a1fc1fa,phục vụ tốt,0.808,4,ai
+r_fa864a301a9b,phục vụ tốt,0.887,6,ai
+r_fab3ee7aea72,phục vụ tốt,0.714,28,ai
+r_fbd2ef2d7df8,phục vụ tốt,0.612,3,ai
+r_fc19e7feb20f,phục vụ tốt,0.755,7,ai
+r_fda89a040e8e,phục vụ tốt,0.685,20,ai
+r_fe29bad41ff6,phục vụ tốt,0.946,11,ai
+r_fe4eff3ba6cb,phục vụ tốt,0.811,23,ai
+r_005870abd55c,giá hợp lý,0.96,14,ai
+r_00761e1c035e,giá hợp lý,0.661,5,ai
+r_010789b0c29e,giá hợp lý,0.576,19,ai
+r_014deacaab7d,giá hợp lý,0.969,18,ai
+r_0280d6d54c28,giá hợp lý,0.987,46,ai
+r_03d9603cfd78,giá hợp lý,0.94,26,ai
+r_04b39ae22bc6,giá hợp lý,0.732,5,ai
+r_05b4593ff284,giá hợp lý,0.579,2,ai
+r_0628ca812ed3,giá hợp lý,0.893,7,ai
+r_07119f700d8c,giá hợp lý,0.7,4,ai
+r_07baa2d13284,giá hợp lý,0.922,8,ai
+r_09622f50b630,giá hợp lý,0.524,2,ai
+r_09fa41ba390d,giá hợp lý,0.807,4,ai
+r_0f02247b5ec0,giá hợp lý,0.594,2,ai
+r_102c3a1c86c1,giá hợp lý,0.667,6,ai
+r_15a25f8edc3c,giá hợp lý,0.72,9,ai
+r_18f8cdc685d7,giá hợp lý,0.533,3,ai
+r_1a0c7e9d2125,giá hợp lý,0.746,5,ai
+r_1a3a40178e19,giá hợp lý,0.911,7,ai
+r_1bab3042765b,giá hợp lý,0.949,13,ai
+r_1c43b57aba9d,giá hợp lý,0.629,40,ai
+r_1c80cd921481,giá hợp lý,0.556,8,ai
+r_1f8753afba8f,giá hợp lý,0.703,3,ai
+r_1fae7226149b,giá hợp lý,0.744,9,ai
+r_218f0e5a1289,giá hợp lý,0.673,3,ai
+r_223fd3f97573,giá hợp lý,0.84,5,ai
+r_2625e5c66858,giá hợp lý,0.916,30,ai
+r_26a907cf2560,giá hợp lý,0.796,4,ai
+r_27706b5fe2ca,giá hợp lý,0.509,8,ai
+r_2cbc4aad6641,giá hợp lý,0.708,3,ai
+r_2d669c7254da,giá hợp lý,0.729,3,ai
+r_2d6b75d0b172,giá hợp lý,0.67,3,ai
+r_2d7f176133e5,giá hợp lý,0.87,5,ai
+r_2e030d8b047e,giá hợp lý,0.955,15,ai
+r_2fb79bece4cd,giá hợp lý,0.723,3,ai
+r_337edcf50bc0,giá hợp lý,0.896,25,ai
+r_360fb3c596a0,giá hợp lý,0.676,13,ai
+r_3865a090b52c,giá hợp lý,0.881,6,ai
+r_3ae67c291ca7,giá hợp lý,0.741,3,ai
+r_3b1d2ceeb17a,giá hợp lý,0.875,11,ai
+r_3ed522de9232,giá hợp lý,0.958,10,ai
+r_419d67e0ae68,giá hợp lý,0.515,2,ai
+r_43aad34bb776,giá hợp lý,0.855,30,ai
+r_456240715ad0,giá hợp lý,0.562,7,ai
+r_47ab8c46154d,giá hợp lý,0.814,4,ai
+r_4a370bf99b8d,giá hợp lý,0.993,35,ai
+r_4a8f00fc7a17,giá hợp lý,0.503,3,ai
+r_4b0049a3932e,giá hợp lý,0.764,3,ai
+r_4b10540b3119,giá hợp lý,0.89,6,ai
+r_4b5887b12eb3,giá hợp lý,0.615,2,ai
+r_4ebb4c731b0d,giá hợp lý,0.53,7,ai
+r_521f66dd0357,giá hợp lý,0.594,2,ai
+r_52b77592374f,giá hợp lý,0.788,4,ai
+r_52def889d4d4,giá hợp lý,0.902,13,ai
+r_535d93c4039d,giá hợp lý,0.905,14,ai
+r_54ccfaed7d2c,giá hợp lý,0.55,4,ai
+r_54e99f5102ff,giá hợp lý,0.711,7,ai
+r_5504329b22dc,giá hợp lý,0.849,12,ai
+r_566c72c415fa,giá hợp lý,0.846,27,ai
+r_59220ec42b62,giá hợp lý,0.644,2,ai
+r_59593f79d301,giá hợp lý,0.535,7,ai
+r_5a2292a71b0b,giá hợp lý,0.594,2,ai
+r_5a238c268fbe,giá hợp lý,0.773,3,ai
+r_5dca6443f23a,giá hợp lý,0.811,4,ai
+r_5eaac07c3b45,giá hợp lý,0.908,7,ai
+r_5f42260ea32d,giá hợp lý,0.735,3,ai
+r_63172cf37611,giá hợp lý,0.776,4,ai
+r_68a317459dd5,giá hợp lý,0.99,19,ai
+r_692b7fc73fb2,giá hợp lý,0.817,11,ai
+r_6b2c8ca90907,giá hợp lý,0.928,14,ai
+r_6d8a627edecf,giá hợp lý,0.823,4,ai
+r_6f6514e2955f,giá hợp lý,0.594,2,ai
+r_7003c77551e5,giá hợp lý,0.785,4,ai
+r_70809fea0131,giá hợp lý,0.664,3,ai
+r_71337993714b,giá hợp lý,0.899,11,ai
+r_7634db783859,giá hợp lý,0.843,5,ai
+r_765670c52d62,giá hợp lý,0.826,4,ai
+r_78302db0b5c5,giá hợp lý,0.984,37,ai
+r_78bbd015c88f,giá hợp lý,0.802,4,ai
+r_7c1a4cca3331,giá hợp lý,0.873,5,ai
+r_7d1f12938586,giá hợp lý,0.749,5,ai
+r_7ddd695aa3a4,giá hợp lý,0.62,2,ai
+r_7df2d32baf92,giá hợp lý,0.594,2,ai
+r_7efccfa6d149,giá hợp lý,0.82,17,ai
+r_7f6605bb0ed5,giá hợp lý,0.861,33,ai
+r_8238d2e5bb50,giá hợp lý,0.782,4,ai
+r_829dd180e3a8,giá hợp lý,0.79,4,ai
+r_8374dbd3b471,giá hợp lý,0.943,28,ai
+r_8540fda59b57,giá hợp lý,0.758,6,ai
+r_85c09815c666,giá hợp lý,0.635,2,ai
+r_86cff243392c,giá hợp lý,0.65,2,ai
+r_87ddd51f389c,giá hợp lý,0.565,5,ai
+r_887dd8d5d86f,giá hợp lý,0.594,2,ai
+r_888b881eb194,giá hợp lý,0.632,14,ai
+r_8a41ab781364,giá hợp lý,0.934,9,ai
+r_8c387f4b2896,giá hợp lý,0.612,5,ai
+r_8f616f7dca4f,giá hợp lý,0.623,15,ai
+r_90608574bdbf,giá hợp lý,0.714,3,ai
+r_92741a76d539,giá hợp lý,0.761,3,ai
+r_94d9b4029357,giá hợp lý,0.682,3,ai
+r_969fdc080c66,giá hợp lý,0.946,9,ai
+r_97b7f0c9f8d2,giá hợp lý,0.799,18,ai
+r_9c005f0ac27d,giá hợp lý,0.544,2,ai
+r_9e85f41e97eb,giá hợp lý,0.659,12,ai
+r_9e86b2a936cd,giá hợp lý,0.571,2,ai
+r_9fa8f7af8626,giá hợp lý,0.975,33,ai
+r_a086608441b7,giá hợp lý,0.594,2,ai
+r_a1299dcbc3ff,giá hợp lý,0.829,4,ai
+r_a17cfe3ed5f5,giá hợp lý,0.837,4,ai
+r_a1fa2ea3363a,giá hợp lý,0.981,28,ai
+r_a44c7044fca1,giá hợp lý,0.527,2,ai
+r_a532b18b5281,giá hợp lý,0.978,17,ai
+r_a55fb760e9c1,giá hợp lý,0.626,29,ai
+r_a976957b6244,giá hợp lý,0.931,9,ai
+r_aba28d98c88c,giá hợp lý,0.538,2,ai
+r_ac8baf6b8ff4,giá hợp lý,0.963,10,ai
+r_ad2d789080d9,giá hợp lý,0.834,4,ai
+r_ae2a29572a7b,giá hợp lý,0.656,9,ai
+r_af3fd4dd1ff2,giá hợp lý,0.518,2,ai
+r_b06d53b270aa,giá hợp lý,0.5,2,ai
+r_b279e506da3b,giá hợp lý,0.779,4,ai
+r_b2af8ee0956d,giá hợp lý,0.705,5,ai
+r_b316a7d93e58,giá hợp lý,0.999,32,ai
+r_b86a65dbbfcc,giá hợp lý,0.767,3,ai
+r_bf1d55ea49e3,giá hợp lý,0.793,4,ai
+r_c0101ff89822,giá hợp lý,0.864,5,ai
+r_c31de79aa14c,giá hợp lý,0.996,22,ai
+r_c501ce8c6b18,giá hợp lý,0.952,16,ai
+r_c692950db406,giá hợp lý,0.937,14,ai
+r_c936546e35a3,giá hợp lý,0.887,20,ai
+r_c9aca69fd3e4,giá hợp lý,0.568,4,ai
+r_cf1edf3fba85,giá hợp lý,0.858,5,ai
+r_d136782107f8,giá hợp lý,0.726,8,ai
+r_d3d27eaec12f,giá hợp lý,0.878,45,ai
+r_d4d270b2a322,giá hợp lý,0.914,25,ai
+r_d5f867623f90,giá hợp lý,0.574,5,ai
+r_d89b911f89ff,giá hợp lý,0.559,3,ai
+r_da23341fc59c,giá hợp lý,0.867,5,ai
+r_db6b74641a73,giá hợp lý,0.609,3,ai
+r_db7c1d47b759,giá hợp lý,0.691,3,ai
+r_dddb0d132d7e,giá hợp lý,0.638,2,ai
+r_debb6f72b9c4,giá hợp lý,0.77,3,ai
+r_e065cc98fdda,giá hợp lý,0.647,2,ai
+r_e0bbed17c5b2,giá hợp lý,0.738,29,ai
+r_e1c8d84d0eab,giá hợp lý,0.831,19,ai
+r_e2c8d453aa13,giá hợp lý,0.553,2,ai
+r_e47f964c8248,giá hợp lý,0.852,5,ai
+r_e595598b57ef,giá hợp lý,0.807,4,ai
+r_e5d256149c42,giá hợp lý,0.752,3,ai
+r_ed7950c2a35e,giá hợp lý,0.972,19,ai
+r_ede23f0fba8e,giá hợp lý,0.618,13,ai
+r_f11fce46dce2,giá hợp lý,0.688,3,ai
+r_f1c5082347a6,giá hợp lý,0.925,20,ai
+r_f2c6b1604023,giá hợp lý,0.717,3,ai
+r_f423fcd3f231,giá hợp lý,0.755,3,ai
+r_f537eb09d5bd,giá hợp lý,0.695,3,ai
+r_f6aa2912fb55,giá hợp lý,0.641,2,ai
+r_f824fe4d16f1,giá hợp lý,0.966,10,ai
+r_f9587a1fc1fa,giá hợp lý,0.884,15,ai
+r_fc19e7feb20f,giá hợp lý,0.679,3,ai
+r_fe4eff3ba6cb,giá hợp lý,0.919,11,ai
+r_010789b0c29e,ồn ào,0.888,13,ai
+r_0f6397ec6238,ồn ào,0.76,4,ai
+r_1a0625c3164c,ồn ào,0.963,15,ai
+r_2bdf69a81304,ồn ào,0.892,11,ai
+r_3447685ec29d,ồn ào,0.778,3,ai
+r_3d6c125f04ef,ồn ào,0.878,11,ai
+r_3e12ab0e3e2f,ồn ào,1.0,20,ai
+r_43aad34bb776,ồn ào,1.0,17,ai
+r_4a370bf99b8d,ồn ào,1.0,13,ai
+r_51ae668e875a,ồn ào,0.776,5,ai
+r_54901bc386d8,ồn ào,0.952,12,ai
+r_566c72c415fa,ồn ào,0.936,13,ai
+r_5aa8c72fb402,ồn ào,0.824,10,ai
+r_5c675f7c71f4,ồn ào,1.0,13,ai
+r_6f66e55b5f3c,ồn ào,1.0,19,ai
+r_7687c70bb6c6,ồn ào,1.0,21,ai
+r_7f033c95913b,ồn ào,0.849,10,ai
+r_7f6605bb0ed5,ồn ào,0.755,7,ai
+r_807c3f30336c,ồn ào,0.872,11,ai
+r_820d5d84e3f1,ồn ào,1.0,13,ai
+r_8368c52dcf39,ồn ào,1.0,4,ai
+r_8540fda59b57,ồn ào,0.812,4,ai
+r_87c9ce3f3aef,ồn ào,0.99,5,ai
+r_87ddd51f389c,ồn ào,0.874,5,ai
+r_887dd8d5d86f,ồn ào,0.86,4,ai
+r_93b62b62b876,ồn ào,0.845,6,ai
+r_9f4633a74019,ồn ào,0.792,5,ai
+r_9fb87fa0944e,ồn ào,1.0,14,ai
+r_a560a70c3bec,ồn ào,0.945,4,ai
+r_a57c27db2ac5,ồn ào,0.826,9,ai
+r_a8e4be0ab504,ồn ào,1.0,16,ai
+r_aa6bf5bb1e22,ồn ào,0.777,4,ai
+r_afc26db1bc78,ồn ào,0.75,10,ai
+r_afe38a686652,ồn ào,1.0,4,ai
+r_b35452439a89,ồn ào,0.951,2,ai
+r_bbc92a3eab65,ồn ào,0.914,5,ai
+r_c936546e35a3,ồn ào,0.837,9,ai
+r_d50be59f851a,ồn ào,0.826,9,ai
+r_e91d3ea84535,ồn ào,0.795,4,ai
+r_eb1e0265df4b,ồn ào,1.0,11,ai

@@ -1,0 +1,119 @@
+
+======================================================================
+1. ĐỌC DỮ LIỆU THÔ
+======================================================================
+Quán (thô): 811 | Review (thô): 24826
+Review theo source_file: {'reviews_hcm_fixed': 20656, 'cleaned_reviews': 2085, 'cleaned_reviews.csv': 2085}
+
+======================================================================
+2. BỎ KHỐI REVIEW TRÙNG
+======================================================================
+Khối 'cleaned_reviews.csv': 2085 dòng, có bản gốc trùng: 2085
+Review: 24826 -> 22741 (kỳ vọng 22741)
+
+======================================================================
+3. LỌC PHẠM VI TP.HCM
+======================================================================
+Review theo thành phố: {'Hồ Chí Minh': 21105, 'Hà Nội': 1320, 'Đà Nẵng': 316}
+Ngoài phạm vi (lưu riêng): 1636 review, 171 quán
+Trong phạm vi HCM: 21105 review
+
+======================================================================
+4. CHUẨN HÓA BẢNG QUÁN (811)
+======================================================================
+Quán có address_new từ review: 793
+
+======================================================================
+5. GẮN REVIEW VÀO QUÁN
+======================================================================
+cleaned_reviews khớp tên với bảng quán: 64 review, 7 quán
+Kiểm tra ổn định ID (địa chỉ cũ vs mới) cho quán trùng: 7/7 giống nhau
+Quán mới từ cleaned_reviews: 42 | thiếu quận: 0
+  Quận của quán mới: {'Quận 1': 14, 'Quận 5': 8, 'Quận 3': 5, 'Quận Tân Bình': 3, 'Quận 7': 2, 'Quận 10': 2, 'Quận Phú Nhuận': 2, 'TP. Thủ Đức': 2, 'Quận Bình Tân': 1, 'Quận Bình Thạnh': 1, 'Quận 11': 1, 'Quận Tân Phú': 1}
+Tổng số quán: 853
+
+======================================================================
+6. GIÁ & GIỜ MỞ CỬA
+======================================================================
+Đối chiếu giá bảng quán vs giá parse từ chữ: 719 quán, trùng khớp hoàn toàn 99.7%
+Thiếu giá: 120 -> 62 (bổ sung 58)
+Gắn cờ price_suspect (price_max > 2,000,000): 4 quán
+Thiếu giờ mở cửa (sau bổ sung từ review): 26 (raw có nhưng không parse được: 2)
+
+======================================================================
+7. CHUẨN HÓA CATEGORY
+======================================================================
+Category gốc: 130 giá trị -> place_type: 12 loại, cuisine: 30 loại
+Suy loại hình từ tên: 122 quán (nhãn tuyển chọn: 80, quán mới: 42)
+place_type: {'Quán ăn': 401, 'Café/Dessert': 139, 'Ăn vặt/vỉa hè': 134, 'Nhà hàng': 119, 'Tiệm bánh': 21, 'Ăn chay': 14, 'Shop Online': 13, 'Sang trọng': 6, 'Quán nhậu': 2, 'Bar/Pub': 2, 'Karaoke': 1, 'Giao cơm văn phòng': 1}
+Top cuisine: {'Món Việt': 417, 'Món Hàn': 25, 'Món Bắc': 20, 'Mỹ': 20, 'Món Nhật': 19, 'Món Trung Hoa': 14, 'Món Huế': 12, 'Quốc tế': 11, 'Đài Loan': 11, 'Món Thái': 11, 'Món Miền Trung': 10, 'Singapore': 9}
+
+======================================================================
+8. LÀM SẠCH REVIEW
+======================================================================
+Review trùng nội dung trong cùng quán: 181 (vd giữa 2 nguồn ở 7 quán trùng)
+Review: 21105 -> 20924
+Thiếu rating: 61 | thiếu ngày: 61 | text < 20 ký tự: 202
+Độ dài text (ký tự): {'min': 4.0, '25%': 143.0, '50%': 275.0, '75%': 487.0, 'max': 6248.0}
+
+======================================================================
+9. BAYESIAN AVERAGE
+======================================================================
+Giới hạn 3 review/quán/ngày: 20863 -> 19526 review có rating được tính (103 quán bị ảnh hưởng)
+Quán gắn cờ rating_suspect: 5 -> Lẩu Thái Ship 3S - Lẩu Thái Hả, Samy - Nước Thảo Mộc & Trà Trá, Bối Bối Food - Gà Ủ Muối Hoa T, Bún & Mì Xào - Nước Ép Fresh D, Chợt Nhớ - Bánh Ướt Lòng Gà Đà
+C (trung bình theo quán) = 6.966 | (theo review = 6.923) | m = 10 | trung vị số review/quán = 9
+Nguồn rating: {'reviews': 826, 'source_aggregate': 25, 'prior': 2}
+Quán < 10 review: 436
+Phân bố rating thô  : {'mean': 6.97, 'std': 1.67, 'min': 1.0, '25%': 6.06, '50%': 6.98, '75%': 8.0, 'max': 10.0}
+Phân bố bayes_rating: {'mean': 6.94, 'std': 0.65, 'min': 2.7, '25%': 6.6, '50%': 6.97, '75%': 7.26, 'max': 9.56}
+Histogram bayes_rating: {Interval(0.0, 5.0, closed='right'): 5, Interval(5.0, 6.0, closed='right'): 48, Interval(6.0, 6.5, closed='right'): 127, Interval(6.5, 7.0, closed='right'): 267, Interval(7.0, 7.5, closed='right'): 300, Interval(7.5, 8.0, closed='right'): 70, Interval(8.0, 8.5, closed='right'): 23, Interval(8.5, 10.0, closed='right'): 13}
+
+======================================================================
+10. XUẤT FILE
+======================================================================
+  data\clean\restaurants_clean.csv
+  data\clean\reviews_clean.csv
+  data\clean\reviews_out_of_scope.csv
+  data\clean\category_map.csv
+  data\clean\bayes_params.json
+  data\clean\top20_bayes.csv
+
+======================================================================
+TOP 20 THEO BAYESIAN RATING
+======================================================================
+                                      name        district    place_type  rating_n  rating_v  bayes_rating  rating_suspect  price_min  price_max
+Bánh Cuốn Đồng Diều - Bánh Cuốn Nóng & Bán          Quận 8       Quán ăn      86.0      9.87          9.56           False        NaN        NaN
+ Nhà Đậu - Bún Đậu Mắm Tôm - Dương Bá Trạc          Quận 8       Quán ăn      45.0      9.92          9.39           False        NaN        NaN
+Chicken Tung - Quán Gà & Trà Sữa Hàn Quốc  Quận Bình Thạnh       Quán ăn      41.0      9.95          9.37           False    25000.0    65000.0
+    Trà Sữa Wait Tea Vietnam - Lê Văn Việt     TP. Thủ Đức  Café/Dessert      58.0      9.52          9.15           False    30000.0    70000.0
+                    Buddha Chay - Đặng Tất          Quận 1      Nhà hàng      30.0      9.41          8.80           False    25000.0   250000.0
+       Gà Rán Chicken Plus - Lê Văn Khương         Quận 12       Quán ăn      30.0      9.33          8.74           False    35000.0   219000.0
+            Cô Ba Chân Gà - Huỳnh Văn Bánh  Quận Phú Nhuận       Quán ăn      16.0      9.85          8.74           False    35000.0   180000.0
+         Bún Đậu Mắm Tôm Mẹt - Đường Số 12     TP. Thủ Đức Ăn vặt/vỉa hè      34.0      9.24          8.72           False    10000.0   300000.0
+            2Q Food - Lẩu Online - Tôn Đản          Quận 4       Quán ăn      15.0      9.76          8.64           False        NaN        NaN
+          Cơm Văn Phòng Min - Lê Thánh Tôn          Quận 1       Quán ăn      15.0      9.73          8.63           False    30000.0    50000.0
+Bột Chiên Bình Thạnh - Bột Chiên - Trần Vă Quận Bình Thạnh Ăn vặt/vỉa hè      27.0      9.19          8.59           False        NaN        NaN
+  Lâm - Cơm Cà Ri - 52/1/3 Nguyễn Thị Thập          Quận 7       Quán ăn      13.0      9.72          8.52           False    20000.0   150000.0
+       Ganesh - Ẩm Thực Ấn Độ - Đường Số 6          Quận 7      Nhà hàng      31.0      9.00          8.50           False    60000.0   165000.0
+                                 CAJUN 379         Quận 10       Quán ăn      86.0      8.67          8.49           False    50000.0   165000.0
+Samy - Nước Thảo Mộc & Trà Trái Cây - Ngô  Quận Bình Thạnh Ăn vặt/vỉa hè      10.0     10.00          8.48            True    39000.0    39000.0
+                Santorino Coffee & Veggies Quận Bình Thạnh  Café/Dessert      14.0      9.56          8.48           False    25000.0   100000.0
+          Chè Út Lyly - Nguyễn Trọng Tuyển   Quận Tân Bình Ăn vặt/vỉa hè      36.0      8.88          8.47           False    10000.0    20000.0
+Lẩu Thái Ship 3S - Lẩu Thái Hải Sản & Lẩu          Quận 10       Quán ăn      10.0      9.94          8.45            True        NaN        NaN
+                Bánh Mì Giòn A4 - Đường A4   Quận Tân Bình Ăn vặt/vỉa hè      33.0      8.90          8.45           False    10000.0    30000.0
+Bối Bối Food - Gà Ủ Muối Hoa Tiêu & Ăn Vặt   Huyện Hóc Môn       Quán ăn      10.0      9.91          8.44            True        NaN        NaN
+
+======================================================================
+SO SÁNH: TOP 10 THEO RATING THÔ (vì sao cần Bayesian)
+======================================================================
+                                      name  rating_n  rating_v  bayes_rating
+Samy - Nước Thảo Mộc & Trà Trái Cây - Ngô       10.0      10.0          8.48
+Ăn Vặt Hày Ngộ - Cá Viên Chiên, Bánh Tráng       8.0      10.0          8.31
+Chợt Nhớ - Bánh Ướt Lòng Gà Đà Lạt - Đường       5.0      10.0          7.98
+                 SHUYI - AEON MALL TÂN PHÚ       5.0      10.0          7.98
+           Bánh Cá Taiyaki - Phạm Văn Đồng       4.0      10.0          7.83
+            A Chề - Cá Viên Chiên & Ăn Vặt       3.0      10.0          7.67
+Bún & Mì Xào - Nước Ép Fresh Delivery Drag       3.0      10.0          7.67
+         Trà Sữa & Trà Trái Cây Saigon Thé       2.0      10.0          7.47
+                        Lotteria - Newcity       2.0      10.0          7.47
+  Tokbokki & Mì Ly Happy Quán - Quách Điêu       2.0      10.0          7.47

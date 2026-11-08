@@ -1,0 +1,21 @@
+﻿restaurant_id,name,district,place_type,rating_n,rating_v,bayes_rating,rating_suspect,price_min,price_max
+r_c501ce8c6b18,Bánh Cuốn Đồng Diều - Bánh Cuốn Nóng & Bánh Ướt - 54 Phạm Nhữ Tăng,Quận 8,Quán ăn,86.0,9.865116279069767,9.563159225655086,False,,
+r_5eaac07c3b45,Nhà Đậu - Bún Đậu Mắm Tôm - Dương Bá Trạc,Quận 8,Quán ăn,45.0,9.924444444444445,9.386605193870697,False,,
+r_f423fcd3f231,Chicken Tung - Quán Gà & Trà Sữa Hàn Quốc - Trường Sa,Quận Bình Thạnh,Quán ăn,41.0,9.951219512195122,9.36594677770369,False,25000.0,65000.0
+r_6b2c8ca90907,Trà Sữa Wait Tea Vietnam - Lê Văn Việt,TP. Thủ Đức,Café/Dessert,58.0,9.524137931034483,9.147989495042474,False,30000.0,70000.0
+r_0f02247b5ec0,Buddha Chay - Đặng Tất,Quận 1,Nhà hàng,30.0,9.413333333333332,8.801582141572204,False,25000.0,250000.0
+r_1a3a40178e19,Gà Rán Chicken Plus - Lê Văn Khương,Quận 12,Quán ăn,30.0,9.333333333333334,8.741582141572206,False,35000.0,219000.0
+r_f2c6b1604023,Cô Ba Chân Gà - Huỳnh Văn Bánh,Quận Phú Nhuận,Quán ăn,16.0,9.85,8.740895602418778,False,35000.0,180000.0
+r_e47f964c8248,Bún Đậu Mắm Tôm Mẹt - Đường Số 12,TP. Thủ Đức,Ăn vặt/vỉa hè,34.0,9.235294117647058,8.719620128702005,False,10000.0,300000.0
+r_3ed522de9232,2Q Food - Lẩu Online - Tôn Đản,Quận 4,Quán ăn,15.0,9.76,8.642531426515529,False,,
+r_1bab3042765b,Cơm Văn Phòng Min - Lê Thánh Tôn,Quận 1,Quán ăn,15.0,9.733333333333333,8.626531426515529,False,30000.0,50000.0
+r_f824fe4d16f1,Bột Chiên Bình Thạnh - Bột Chiên - Trần Văn Kỷ,Quận Bình Thạnh,Ăn vặt/vỉa hè,27.0,9.185185185185185,8.585494207105086,False,,
+r_68a317459dd5,Lâm - Cơm Cà Ri - 52/1/3 Nguyễn Thị Thập,Quận 7,Quán ăn,13.0,9.723076923076924,8.524490680995141,False,20000.0,150000.0
+r_7634db783859,Ganesh - Ẩm Thực Ấn Độ - Đường Số 6,Quận 7,Nhà hàng,31.0,9.0,8.503982577143615,False,60000.0,165000.0
+r_5e9cd34f40c9,CAJUN 379,Quận 10,Quán ăn,86.0,8.669767441860465,8.492325892321753,False,50000.0,165000.0
+r_fe29bad41ff6,Samy - Nước Thảo Mộc & Trà Trái Cây - Ngô Đức Kế,Quận Bình Thạnh,Ăn vặt/vỉa hè,10.0,10.0,8.48316428314441,True,39000.0,39000.0
+r_521f66dd0357,Santorino Coffee & Veggies,Quận Bình Thạnh,Café/Dessert,14.0,9.557142857142859,8.477636902620342,False,25000.0,100000.0
+r_a44c7044fca1,Chè Út Lyly - Nguyễn Trọng Tuyển,Quận Tân Bình,Ăn vặt/vỉa hè,36.0,8.883333333333333,8.466593166584525,False,10000.0,20000.0
+r_96040ef04b94,Lẩu Thái Ship 3S - Lẩu Thái Hải Sản & Lẩu Gà Lá É Phú Yên - Nguyễn Ngọc Lộc,Quận 10,Quán ăn,10.0,9.940000000000001,8.453164283144412,True,,
+r_f537eb09d5bd,Bánh Mì Giòn A4 - Đường A4,Quận Tân Bình,Ăn vặt/vỉa hè,33.0,8.896969696969698,8.447983387509028,False,10000.0,30000.0
+r_ac8baf6b8ff4,Bối Bối Food - Gà Ủ Muối Hoa Tiêu & Ăn Vặt,Huyện Hóc Môn,Quán ăn,10.0,9.908695652173913,8.437512109231367,True,,

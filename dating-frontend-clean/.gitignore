@@ -1,0 +1,41 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Production build outputs
+dist
+dist-ssr
+*.local
+
+# Cache and temporary files
+.vite
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# Environment variables and secrets (Strictly Protected)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+credentials.json
+
+# Vercel deployment cache
+.vercel
+
+# IDE & OS files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+.vercel

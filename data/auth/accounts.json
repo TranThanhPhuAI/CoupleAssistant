@@ -1,0 +1,23 @@
+{
+  "phu": {
+    "password": "pbkdf2_sha256$200000$kMsV4YKV2gdJ+t7NfltGuw==$TEZtU6638etbyivqBjIlNn9yI2sD7CvK7qqomPRy7kQ=",
+    "role": "admin",
+    "created_at": 1793332978,
+    "password_set_at": 1793711350.996108
+  },
+  "PHu": {
+    "password": "pbkdf2_sha256$200000$/TFbOS6hSJIGTuITC9xdhA==$os+dpwOkZz2Wox68ezy/NYQ1LGYsmnOUhWuhGQMu+uE=",
+    "role": "member",
+    "created_at": 1793342701
+  },
+  "dan": {
+    "password": "pbkdf2_sha256$200000$SkqqMZTrgBAR8FXtqdmHZA==$ck1d45LDVP6WST6JtAyxStTNCzj9p1cUyUM9dbU7w5A=",
+    "role": "member",
+    "created_at": 1793353189
+  },
+  "john": {
+    "password": "pbkdf2_sha256$200000$QZxowFScb+5SKKE7F4BaoQ==$JrEFcDRxHxLYl5JgxyprQN93HgFXreSAiExmzEbU+os=",
+    "role": "member",
+    "created_at": 1793710690
+  }
+}

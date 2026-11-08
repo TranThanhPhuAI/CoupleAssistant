@@ -1,0 +1,322 @@
+{
+ "q01|r_11206fa2db5c|r_318c62b4ec79|r_87643d6a9aa5|r_90f3fb723db2|r_db2feffdaff2|r_be5fa6d8c76f|r_b4b03a8c4654|r_7a5ae0f3afc4|r_3adde59b04dc|r_53809a6696ea|r_417a0c32acda|r_c3b4dc3e9f55|r_d4aa8415820f|r_35bcd50c8b84|r_72db7b3f61c4": {
+  "picks": [
+   "r_11206fa2db5c",
+   "r_87643d6a9aa5",
+   "r_90f3fb723db2"
+  ],
+  "n_invalid_id": 0
+ },
+ "q02|r_a976957b6244|r_891fa1188665|r_8fcd84890df1|r_7f7d7ca4f329|r_521f66dd0357|r_37ae824bd8f7|r_0ae4c07067e7|r_afc26db1bc78|r_71337993714b|r_4b9cc09b0cd1|r_6075e323ea77|r_147ac8fc9f92|r_289fbe4c1996|r_debb6f72b9c4|r_06e597c959a5": {
+  "picks": [
+   "r_a976957b6244",
+   "r_891fa1188665",
+   "r_521f66dd0357"
+  ],
+  "n_invalid_id": 0
+ },
+ "q03|r_70809fea0131|r_6f6514e2955f|r_06f913956d8e|r_a1fa2ea3363a|r_12cf2829cc59|r_e69c75f6d384|r_891fa1188665|r_0ae4c07067e7|r_005870abd55c|r_2703cb0651bb|r_a09701194fa0|r_1f4e593e06e2|r_318c62b4ec79|r_15a25f8edc3c|r_6075e323ea77": {
+  "picks": [
+   "r_70809fea0131",
+   "r_12cf2829cc59",
+   "r_15a25f8edc3c"
+  ],
+  "n_invalid_id": 0
+ },
+ "q04|r_891fa1188665|r_6075e323ea77|r_a976957b6244|r_147ac8fc9f92|r_70809fea0131|r_7f7d7ca4f329|r_71337993714b|r_12cf2829cc59|r_a1fa2ea3363a|r_06e597c959a5|r_7687c70bb6c6|r_53933ef535eb|r_289fbe4c1996|r_1f4e593e06e2|r_005870abd55c": {
+  "picks": [
+   "r_891fa1188665",
+   "r_147ac8fc9f92",
+   "r_06e597c959a5"
+  ],
+  "n_invalid_id": 0
+ },
+ "q05|r_1f4e593e06e2|r_891fa1188665|r_53933ef535eb|r_12cf2829cc59|r_70809fea0131|r_0ae4c07067e7|r_a976957b6244|r_8af79a6d2abb|r_248e8fa91488|r_06f913956d8e|r_a09701194fa0|r_03d9603cfd78|r_6f6514e2955f|r_2703cb0651bb|r_888b881eb194": {
+  "picks": [
+   "r_1f4e593e06e2",
+   "r_12cf2829cc59",
+   "r_248e8fa91488"
+  ],
+  "n_invalid_id": 0
+ },
+ "q06|r_12cf2829cc59|r_71c32209b1ac|r_005870abd55c|r_f423fcd3f231|r_06e597c959a5|r_3d6c125f04ef|r_e0bbed17c5b2|r_2d7f176133e5|r_a091a538cdf6|r_248e8fa91488|r_3999b0286b60|r_1f4e593e06e2|r_ecbac135cab7|r_1b922fd4418e|r_61c9171f634e": {
+  "picks": [
+   "r_12cf2829cc59",
+   "r_005870abd55c",
+   "r_2d7f176133e5"
+  ],
+  "n_invalid_id": 0
+ },
+ "q07|r_66c9c9df0de6|r_71337993714b|r_27706b5fe2ca|r_913378910fdc|r_cf7c09068f4e|r_0ae4c07067e7|r_891fa1188665|r_521f66dd0357|r_458005221b5f|r_5c9bf2c94533|r_63172cf37611|r_147ac8fc9f92|r_12cf2829cc59|r_a1fa2ea3363a|r_1f4e593e06e2": {
+  "picks": [
+   "r_66c9c9df0de6",
+   "r_27706b5fe2ca",
+   "r_63172cf37611"
+  ],
+  "n_invalid_id": 0
+ },
+ "q08|r_7c1a4cca3331|r_fe4eff3ba6cb|r_5803d5aa5d4e|r_07baa2d13284|r_afe38a686652|r_d409a242e402|r_a1fa2ea3363a|r_6075e323ea77|r_0628ca812ed3|r_888b881eb194|r_521f66dd0357|r_30d2b3f9d482|r_8fef2590236f|r_005870abd55c|r_891fa1188665": {
+  "picks": [
+   "r_fe4eff3ba6cb",
+   "r_07baa2d13284",
+   "r_0628ca812ed3"
+  ],
+  "n_invalid_id": 0
+ },
+ "q09|r_521f66dd0357|r_f423fcd3f231|r_5803d5aa5d4e|r_a1005a42f94a|r_fab3ee7aea72|r_5ecf3f33ec8c|r_8a8125b27bfc|r_9a9718ae391d|r_f9586c09891c|r_fe29bad41ff6|r_a55fb760e9c1|r_edfcaeb66ba0|r_5935a5c00fa5|r_723582acdce3|r_4df876bdce41": {
+  "picks": [
+   "r_521f66dd0357",
+   "r_f9586c09891c",
+   "r_fe29bad41ff6"
+  ],
+  "n_invalid_id": 0
+ },
+ "q10|r_a1fa2ea3363a|r_891fa1188665|r_a09701194fa0|r_efaa3fdeb960|r_12cf2829cc59|r_58d5f706804e|r_318c62b4ec79|r_6f6514e2955f|r_7df2d32baf92|r_6075e323ea77|r_0ae4c07067e7|r_78bbd015c88f|r_66c9c9df0de6|r_005870abd55c|r_ecbac135cab7": {
+  "picks": [
+   "r_a1fa2ea3363a",
+   "r_0ae4c07067e7",
+   "r_005870abd55c"
+  ],
+  "n_invalid_id": 0
+ },
+ "q11|r_ed7950c2a35e|r_8374dbd3b471|r_e0bbed17c5b2|r_318c62b4ec79|r_ecbac135cab7|r_78bbd015c88f|r_5ecf3f33ec8c|r_0ae4c07067e7|r_005870abd55c|r_c692950db406|r_71337993714b|r_6075e323ea77|r_06e597c959a5|r_12cf2829cc59|r_53933ef535eb": {
+  "picks": [
+   "r_ed7950c2a35e",
+   "r_e0bbed17c5b2",
+   "r_318c62b4ec79"
+  ],
+  "n_invalid_id": 0
+ },
+ "q12|r_a1fa2ea3363a|r_891fa1188665|r_888b881eb194|r_12cf2829cc59|r_a09701194fa0|r_71337993714b|r_005870abd55c|r_521f66dd0357|r_0ae4c07067e7|r_66c9c9df0de6|r_6075e323ea77|r_1f4e593e06e2|r_70809fea0131|r_03d9603cfd78|r_0ad8b4eb7986": {
+  "picks": [
+   "r_a1fa2ea3363a",
+   "r_888b881eb194",
+   "r_a09701194fa0"
+  ],
+  "n_invalid_id": 0
+ },
+ "q13|r_a1fa2ea3363a|r_6075e323ea77|r_891fa1188665|r_71337993714b|r_fe29bad41ff6|r_147ac8fc9f92|r_521f66dd0357|r_3b1d2ceeb17a|r_a55fb760e9c1|r_06e597c959a5|r_92741a76d539|r_4b0695fd852a|r_03d9603cfd78|r_3999b0286b60|r_fbd2ef2d7df8": {
+  "picks": [
+   "r_fe29bad41ff6",
+   "r_521f66dd0357",
+   "r_a55fb760e9c1"
+  ],
+  "n_invalid_id": 0
+ },
+ "q14|r_a976957b6244|r_891fa1188665|r_afc26db1bc78|r_6075e323ea77|r_521f66dd0357|r_71337993714b|r_7f7d7ca4f329|r_8fcd84890df1|r_37ae824bd8f7|r_4b9cc09b0cd1|r_147ac8fc9f92|r_06e597c959a5|r_abd02c3e58ea|r_289fbe4c1996|r_888b881eb194": {
+  "picks": [
+   "r_a976957b6244",
+   "r_891fa1188665",
+   "r_521f66dd0357"
+  ],
+  "n_invalid_id": 0
+ },
+ "q15|r_891fa1188665|r_6075e323ea77|r_7f7d7ca4f329|r_70809fea0131|r_15a25f8edc3c|r_2703cb0651bb|r_9c0884387d19|r_147ac8fc9f92|r_a976957b6244|r_71337993714b|r_289fbe4c1996|r_78bbd015c88f|r_7687c70bb6c6|r_a1fa2ea3363a|r_06e597c959a5": {
+  "picks": [
+   "r_891fa1188665",
+   "r_7f7d7ca4f329",
+   "r_15a25f8edc3c"
+  ],
+  "n_invalid_id": 0
+ },
+ "q16|r_891fa1188665|r_71337993714b|r_6075e323ea77|r_12cf2829cc59|r_fe29bad41ff6|r_147ac8fc9f92|r_005870abd55c|r_a1fa2ea3363a|r_1f4e593e06e2|r_a976957b6244|r_521f66dd0357|r_98672ea53ad1|r_2c1a35715a37|r_70809fea0131|r_913378910fdc": {
+  "picks": [
+   "r_891fa1188665",
+   "r_12cf2829cc59",
+   "r_1f4e593e06e2"
+  ],
+  "n_invalid_id": 0
+ },
+ "q17|r_b751ef806c77|r_913378910fdc|r_2aa160f175f8|r_014deacaab7d|r_458005221b5f|r_289fbe4c1996|r_03d9603cfd78|r_f1c5082347a6|r_0ae4c07067e7|r_71c40f358c3c|r_66c9c9df0de6|r_1f4e593e06e2|r_3999b0286b60|r_205fd7ea4288|r_27706b5fe2ca": {
+  "picks": [
+   "r_b751ef806c77",
+   "r_03d9603cfd78",
+   "r_66c9c9df0de6"
+  ],
+  "n_invalid_id": 0
+ },
+ "q18|r_03d9603cfd78|r_014deacaab7d|r_66c9c9df0de6|r_0ae4c07067e7|r_7634db783859|r_a1fa2ea3363a|r_a09701194fa0|r_b751ef806c77|r_12cf2829cc59|r_005870abd55c|r_458005221b5f|r_27706b5fe2ca|r_1f4e593e06e2|r_2703cb0651bb|r_53933ef535eb": {
+  "picks": [
+   "r_03d9603cfd78",
+   "r_014deacaab7d",
+   "r_7634db783859"
+  ],
+  "n_invalid_id": 0
+ },
+ "q19|r_891fa1188665|r_06e597c959a5|r_71337993714b|r_a976957b6244|r_4b0695fd852a|r_afc26db1bc78|r_8fcd84890df1|r_147ac8fc9f92|r_7f7d7ca4f329|r_6075e323ea77|r_4b9cc09b0cd1|r_289fbe4c1996|r_d31331fca9f7|r_a1fa2ea3363a|r_521f66dd0357": {
+  "picks": [
+   "r_891fa1188665",
+   "r_06e597c959a5",
+   "r_4b9cc09b0cd1"
+  ],
+  "n_invalid_id": 0
+ },
+ "q20|r_3d6c125f04ef|r_3999b0286b60|r_a8e4be0ab504|r_a1fa2ea3363a|r_147ac8fc9f92|r_4a8f00fc7a17|r_8374dbd3b471|r_b2af8ee0956d|r_322861f977cf|r_289fbe4c1996|r_cb1dbbedb99a|r_7f3533adfea8|r_00761e1c035e|r_03258ede84ea|r_fbd2ef2d7df8": {
+  "picks": [
+   "r_3d6c125f04ef",
+   "r_a1fa2ea3363a",
+   "r_8374dbd3b471"
+  ],
+  "n_invalid_id": 0
+ },
+ "q21|r_71337993714b|r_891fa1188665|r_6075e323ea77|r_147ac8fc9f92|r_fe29bad41ff6|r_12cf2829cc59|r_ec9a10a51f01|r_a1fa2ea3363a|r_005870abd55c|r_1f4e593e06e2|r_521f66dd0357|r_06e597c959a5|r_afc26db1bc78|r_a976957b6244|r_2703cb0651bb": {
+  "picks": [
+   "r_71337993714b",
+   "r_147ac8fc9f92",
+   "r_a1fa2ea3363a"
+  ],
+  "n_invalid_id": 0
+ },
+ "q22|r_3b1d2ceeb17a|r_27706b5fe2ca|r_ecbac135cab7|r_78bbd015c88f|r_37f0190dc753|r_2379dbb3ea08|r_cb58b7cf4841|r_637aaac17cd5|r_c770a21e19af|r_d7e014799816|r_fb6b550366b3|r_aa60409a9c7a|r_5a225b21f178|r_f84598afccf0": {
+  "picks": [
+   "r_3b1d2ceeb17a",
+   "r_27706b5fe2ca",
+   "r_78bbd015c88f"
+  ],
+  "n_invalid_id": 0
+ },
+ "q23|r_a976957b6244|r_891fa1188665|r_7f7d7ca4f329|r_37ae824bd8f7|r_afc26db1bc78|r_4b9cc09b0cd1|r_70809fea0131|r_12cf2829cc59|r_a09701194fa0|r_06f913956d8e|r_1f4e593e06e2|r_03d9603cfd78|r_0ae4c07067e7|r_53933ef535eb|r_014deacaab7d": {
+  "picks": [
+   "r_891fa1188665",
+   "r_7f7d7ca4f329",
+   "r_37ae824bd8f7"
+  ],
+  "n_invalid_id": 0
+ },
+ "q24|r_70809fea0131|r_5e9cd34f40c9|r_005870abd55c|r_3999b0286b60|r_1f4e593e06e2|r_b5b9bfc72ff9|r_6075e323ea77|r_891fa1188665|r_90608574bdbf|r_b751ef806c77|r_78bbd015c88f|r_765670c52d62|r_71337993714b|r_a976957b6244|r_2703cb0651bb": {
+  "picks": [
+   "r_5e9cd34f40c9",
+   "r_1f4e593e06e2",
+   "r_b5b9bfc72ff9"
+  ],
+  "n_invalid_id": 0
+ },
+ "q25|r_06e597c959a5|r_71c32209b1ac|r_2703cb0651bb|r_71337993714b|r_f423fcd3f231|r_c8fef48ebaf5|r_a976957b6244|r_03258ede84ea|r_289fbe4c1996|r_1f4e593e06e2|r_5f42260ea32d|r_d31331fca9f7|r_c501ce8c6b18|r_891fa1188665|r_afc26db1bc78": {
+  "picks": [
+   "r_06e597c959a5",
+   "r_71c32209b1ac",
+   "r_c8fef48ebaf5"
+  ],
+  "n_invalid_id": 0
+ },
+ "q26|r_005870abd55c|r_0ae4c07067e7|r_70809fea0131|r_6075e323ea77|r_71337993714b|r_a09701194fa0|r_12cf2829cc59|r_3999b0286b60|r_891fa1188665|r_a1fa2ea3363a|r_66c9c9df0de6|r_ec9a10a51f01|r_1f4e593e06e2|r_2703cb0651bb|r_27706b5fe2ca": {
+  "picks": [
+   "r_a1fa2ea3363a",
+   "r_66c9c9df0de6",
+   "r_ec9a10a51f01"
+  ],
+  "n_invalid_id": 0
+ },
+ "q27|r_71337993714b|r_005870abd55c|r_12cf2829cc59|r_891fa1188665|r_6075e323ea77|r_fe29bad41ff6|r_70809fea0131|r_147ac8fc9f92|r_a1fa2ea3363a|r_3999b0286b60|r_41c19e1bc418|r_1f4e593e06e2|r_06e597c959a5|r_53933ef535eb|r_b41e7d845281": {
+  "picks": [
+   "r_71337993714b",
+   "r_147ac8fc9f92",
+   "r_a1fa2ea3363a"
+  ],
+  "n_invalid_id": 0
+ },
+ "q28|r_6075e323ea77|r_5a2292a71b0b|r_7c1a4cca3331|r_abd02c3e58ea|r_4ec4dbf5ea6f|r_969fdc080c66|r_04b39ae22bc6|r_1c80cd921481|r_233e2874d0ed|r_e47f964c8248|r_fa864a301a9b|r_bda32362ff44|r_223fd3f97573|r_efdfdd4159a0|r_e2c8d453aa13": {
+  "picks": [
+   "r_6075e323ea77",
+   "r_1c80cd921481",
+   "r_233e2874d0ed"
+  ],
+  "n_invalid_id": 0
+ },
+ "q29|r_15a25f8edc3c|r_98672ea53ad1|r_a1fa2ea3363a|r_005870abd55c|r_417a0c32acda|r_93b62b62b876|r_3385ca4da373|r_fdf3e87c532c|r_12cf2829cc59|r_af3fd4dd1ff2|r_f795c42006ab|r_61c9171f634e|r_be5fa6d8c76f|r_bd2e9e399a15|r_969fdc080c66": {
+  "picks": [
+   "r_15a25f8edc3c",
+   "r_12cf2829cc59",
+   "r_af3fd4dd1ff2"
+  ],
+  "n_invalid_id": 0
+ },
+ "q30|r_71337993714b|r_147ac8fc9f92|r_a1fa2ea3363a|r_0ae4c07067e7|r_891fa1188665|r_6075e323ea77|r_12cf2829cc59|r_03d9603cfd78|r_005870abd55c|r_521f66dd0357|r_66c9c9df0de6|r_8374dbd3b471|r_7f7d7ca4f329|r_fe29bad41ff6|r_71c32209b1ac": {
+  "picks": [
+   "r_521f66dd0357",
+   "r_66c9c9df0de6",
+   "r_fe29bad41ff6"
+  ],
+  "n_invalid_id": 0
+ },
+ "q31|r_53933ef535eb|r_8af79a6d2abb|r_1f4e593e06e2|r_66c9c9df0de6|r_458005221b5f|r_0ae4c07067e7|r_71337993714b|r_70809fea0131|r_3999b0286b60|r_4059aa09c6fc|r_27706b5fe2ca|r_005870abd55c|r_765670c52d62|r_f795c42006ab|r_248e8fa91488": {
+  "picks": [
+   "r_53933ef535eb",
+   "r_66c9c9df0de6",
+   "r_27706b5fe2ca"
+  ],
+  "n_invalid_id": 0
+ },
+ "q32|r_2c1a35715a37|r_7efccfa6d149|r_ed7950c2a35e|r_cf7c09068f4e|r_90608574bdbf|r_00b3e9334c62|r_b4085cc374b7|r_e5d256149c42|r_d98d2d7673d5|r_7c74cf5a0943|r_cf1edf3fba85|r_419d67e0ae68|r_5e38d13985d7|r_2aa160f175f8|r_703ea190d12d": {
+  "picks": [
+   "r_2c1a35715a37",
+   "r_90608574bdbf",
+   "r_e5d256149c42"
+  ],
+  "n_invalid_id": 0
+ },
+ "q33|r_71337993714b|r_0ae4c07067e7|r_6075e323ea77|r_891fa1188665|r_fe29bad41ff6|r_a1fa2ea3363a|r_147ac8fc9f92|r_7f7d7ca4f329|r_12cf2829cc59|r_8fcd84890df1|r_a976957b6244|r_521f66dd0357|r_005870abd55c|r_1f4e593e06e2|r_66c9c9df0de6": {
+  "picks": [
+   "r_0ae4c07067e7",
+   "r_7f7d7ca4f329",
+   "r_8fcd84890df1"
+  ],
+  "n_invalid_id": 0
+ },
+ "q34|r_71337993714b|r_6075e323ea77|r_3999b0286b60|r_891fa1188665|r_06e597c959a5|r_78bbd015c88f|r_a976957b6244|r_147ac8fc9f92|r_458005221b5f|r_3b1d2ceeb17a|r_4b9cc09b0cd1|r_12cf2829cc59|r_debb6f72b9c4|r_4a8f00fc7a17|r_11206fa2db5c": {
+  "picks": [
+   "r_71337993714b",
+   "r_3999b0286b60",
+   "r_3b1d2ceeb17a"
+  ],
+  "n_invalid_id": 0
+ },
+ "q35|r_a1fa2ea3363a|r_6075e323ea77|r_891fa1188665|r_a09701194fa0|r_78bbd015c88f|r_5355560380a0|r_fe4eff3ba6cb|r_6f6514e2955f|r_005870abd55c|r_71337993714b|r_07baa2d13284|r_66c9c9df0de6|r_8b8f2f2e082f|r_1f4e593e06e2|r_521f66dd0357": {
+  "picks": [
+   "r_a1fa2ea3363a",
+   "r_5355560380a0",
+   "r_8b8f2f2e082f"
+  ],
+  "n_invalid_id": 0
+ },
+ "q36|r_ecbac135cab7|r_6b817436360a|r_12cf2829cc59|r_1b922fd4418e|r_318c62b4ec79|r_b316a7d93e58|r_005870abd55c|r_ed7950c2a35e|r_c936546e35a3|r_e0bbed17c5b2|r_71c32209b1ac|r_f423fcd3f231|r_2d7f176133e5|r_06e597c959a5|r_edfcaeb66ba0": {
+  "picks": [
+   "r_ecbac135cab7",
+   "r_318c62b4ec79",
+   "r_ed7950c2a35e"
+  ],
+  "n_invalid_id": 0
+ },
+ "q37|r_891fa1188665|r_12cf2829cc59|r_76822f0a17d6|r_a976957b6244|r_53933ef535eb|r_7f7d7ca4f329|r_0ae4c07067e7|r_03d9603cfd78|r_a09701194fa0|r_afc26db1bc78|r_e0bbed17c5b2|r_6f6514e2955f|r_b41e7d845281|r_4059aa09c6fc|r_4b9cc09b0cd1": {
+  "picks": [
+   "r_891fa1188665",
+   "r_12cf2829cc59",
+   "r_a976957b6244"
+  ],
+  "n_invalid_id": 0
+ },
+ "q38|r_f537eb09d5bd|r_a976957b6244|r_61c9171f634e|r_a44c7044fca1|r_3999b0286b60|r_2d669c7254da|r_6075e323ea77|r_e0bbed17c5b2|r_419d67e0ae68|r_005870abd55c|r_adc4bad48f32|r_891fa1188665|r_06e597c959a5|r_337edcf50bc0|r_1f4e593e06e2": {
+  "picks": [
+   "r_f537eb09d5bd",
+   "r_3999b0286b60",
+   "r_1f4e593e06e2"
+  ],
+  "n_invalid_id": 0
+ },
+ "q39|r_891fa1188665|r_71337993714b|r_147ac8fc9f92|r_a1fa2ea3363a|r_6075e323ea77|r_fe29bad41ff6|r_12cf2829cc59|r_521f66dd0357|r_888b881eb194|r_0ae4c07067e7|r_98672ea53ad1|r_8fcd84890df1|r_a976957b6244|r_289fbe4c1996|r_005870abd55c": {
+  "picks": [
+   "r_891fa1188665",
+   "r_521f66dd0357",
+   "r_8fcd84890df1"
+  ],
+  "n_invalid_id": 0
+ },
+ "q40|r_06e597c959a5|r_66c9c9df0de6|r_f795c42006ab|r_913378910fdc|r_f537eb09d5bd|r_102c3a1c86c1|r_337edcf50bc0|r_20c7c1c9c5a5|r_1b398c123246|r_2cbc4aad6641|r_bfba86190673|r_a57c27db2ac5|r_10c70658e2a2|r_8522ed18242b|r_9fa8f7af8626": {
+  "picks": [
+   "r_06e597c959a5",
+   "r_66c9c9df0de6",
+   "r_102c3a1c86c1"
+  ],
+  "n_invalid_id": 0
+ }
+}

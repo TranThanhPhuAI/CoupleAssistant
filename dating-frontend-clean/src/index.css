@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors from DESIGN.md */
+  --color-obsidian: #000000;
+  --color-paper: #ffffff;
+  --color-charcoal: #2f2f2f;
+  --color-ash: #898989;
+  --color-fog: #dddddd;
+  --color-slate: #999999;
+
+  /* Typography */
+  --font-clarkson: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-clarkson-serif: 'Playfair Display', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  /* Border Radius Tokens */
+  --radius-cards: 8px;
+  --radius-pills: 100px;
+  --radius-inputs: 8px;
+  --radius-buttons: 0px;
+}
+
+:root {
+  color-scheme: dark;
+  font-family: var(--font-clarkson);
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Custom Scrollbar - Minimalist Monochrome */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #2f2f2f;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #898989;
+}
+
+/* Smooth Lenis Scroll Integration */
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* Typography styles according to DESIGN.md */
+.font-display-clarkson {
+  font-family: var(--font-clarkson);
+  font-weight: 300;
+  letter-spacing: -0.06em;
+  line-height: 0.95;
+}
+
+.font-serif-clarkson {
+  font-family: var(--font-clarkson-serif);
+}
+
+/* Dedicated Editorial Font Utilities */
+.font-jakarta {
+  font-family: 'Plus Jakarta Sans', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+.font-cormorant {
+  font-family: 'Cormorant Garamond', ui-serif, Georgia, Cambria, serif;
+}
+.font-playfair {
+  font-family: 'Playfair Display', ui-serif, Georgia, Cambria, serif;
+}
+.font-inter {
+  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+/* Buttons with 0px sharp radius */
+.btn-ghost-white {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 0px;
+  padding: 14px 28px;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-ghost-white:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+.btn-filled-white {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  color: #000000;
+  border-radius: 0px;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-filled-white:hover {
+  background: #dddddd;
+  border-color: #dddddd;
+}
+
+/* Pill Filter Tab with 100px radius */
+.pill-tab {
+  border-radius: 100px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 400;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.pill-tab-inactive {
+  background: transparent;
+  color: #898989;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.pill-tab-inactive:hover {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.pill-tab-active {
+  background: #ffffff;
+  color: #000000;
+  border: 1px solid #ffffff;
+  font-weight: 500;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

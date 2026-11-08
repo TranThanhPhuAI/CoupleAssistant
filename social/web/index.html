@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+  <meta name="theme-color" content="#000000">
+  <meta name="color-scheme" content="dark light">
+  <!-- Giao diện sáng / tối: dùng chung lựa chọn của Couple Assistant (cùng tên miền), nếu chưa có thì theo cài đặt máy -->
+  <script>
+    (function () {
+      var t; try { t = localStorage.getItem("ca_theme"); } catch (e) {}
+      if (t !== "light" && t !== "dark") t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      document.documentElement.dataset.theme = t;
+    })();
+  </script>
+  <title>Lovespot</title>
+  <meta name="description" content="Lovespot: mạng xã hội cho người mê ăn và mê hẹn hò ở TP.HCM.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="mark" viewBox="0 0 32 32"><circle cx="12" cy="16" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="20" cy="16" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-feed" viewBox="0 0 20 20"><path d="M3 4h14M3 10h14M3 16h9" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <symbol id="i-people" viewBox="0 0 20 20"><circle cx="7.5" cy="7" r="3" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M2 17c.6-3 2.8-4.5 5.5-4.5S12.4 14 13 17M13 4.5a3 3 0 0 1 0 5.6M15.5 12.8c1.4.7 2.2 2 2.5 4.2" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <symbol id="i-place" viewBox="0 0 20 20"><path d="M10 18s-6-5-6-9.5a6 6 0 0 1 12 0C16 13 10 18 10 18z" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="10" cy="8.5" r="2.2" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <symbol id="i-bell" viewBox="0 0 20 20"><path d="M5 14V9a5 5 0 0 1 10 0v5l1.5 2h-13zM8 18h4" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+</svg>
+
+<!-- ===== Ứng dụng ===== -->
+<div id="app" hidden>
+  <header class="top">
+    <a class="brand" href="#/feed" aria-label="Lovespot, về bảng tin"><svg class="mark" aria-hidden="true"><use href="#mark"/></svg><span>Lovespot</span></a>
+    <form class="search" id="f-search" role="search">
+      <label for="q" class="sr-only">Tìm người hoặc quán</label>
+      <input id="q" name="q" type="search" placeholder="Tìm người, quán, quận…" autocomplete="off" enterkeyhint="search">
+      <div class="search-pop" id="search-pop" hidden></div>
+    </form>
+    <nav class="tabs" aria-label="Điều hướng">
+      <a href="#/feed" data-route="feed"><svg aria-hidden="true"><use href="#i-feed"/></svg><span>Bảng tin</span></a>
+      <a href="#/network" data-route="network"><svg aria-hidden="true"><use href="#i-people"/></svg><span>Kết nối</span><b class="badge" id="b-network" hidden></b></a>
+      <a href="#/places" data-route="places"><svg aria-hidden="true"><use href="#i-place"/></svg><span>Quán</span></a>
+      <a href="#/notifications" data-route="notifications"><svg aria-hidden="true"><use href="#i-bell"/></svg><span>Thông báo</span><b class="badge" id="b-notif" hidden></b></a>
+      <a href="#/me" data-route="me" class="me-tab"><span class="avatar sm" id="me-avatar"></span><span>Tôi</span></a>
+    </nav>
+  </header>
+  <main id="view" class="view" tabindex="-1"></main>
+</div>
+
+<!-- ===== Đăng nhập / đăng ký ===== -->
+<div id="auth" class="auth-wrap" hidden>
+  <div class="auth-side">
+    <p class="kicker">Mạng xã hội cho người</p>
+    <h1 class="display">mê ăn &amp; mê hẹn hò.</h1>
+    <p class="lede">Kết nối với người cùng gu, review quán thật ở TP.HCM, và tìm điểm hẹn mà cả hai cùng thích.</p>
+  </div>
+  <form id="f-auth" class="auth">
+    <p class="brand-line"><svg class="mark" aria-hidden="true"><use href="#mark"/></svg> Lovespot</p>
+    <h2 id="auth-title">Đăng nhập</h2>
+    <label for="a-user">Tên người dùng</label>
+    <input id="a-user" name="username" required pattern="[a-z0-9_]{3,30}" autocomplete="username" autocapitalize="none" autocorrect="off" spellcheck="false" aria-describedby="a-help">
+    <div id="a-name-wrap" hidden><label for="a-name">Tên hiển thị</label><input id="a-name" name="display_name" maxlength="60" autocomplete="name"></div>
+    <label for="a-pass">Mật khẩu</label>
+    <input id="a-pass" name="password" type="password" required minlength="8" autocomplete="current-password" aria-describedby="a-help">
+    <p id="a-help" class="help">Tên người dùng: 3–30 ký tự, chữ thường không dấu, số hoặc _. Mật khẩu từ 8 ký tự.</p>
+    <button type="submit" class="btn primary" id="a-submit">Đăng nhập</button>
+    <button type="button" class="link" id="a-switch">Chưa có tài khoản? Tạo tài khoản mới</button>
+    <div id="a-msg" role="alert"></div>
+  </form>
+</div>
+<script src="static/app.js"></script>
+</body>
+</html>

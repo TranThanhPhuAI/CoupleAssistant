@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+  <meta name="theme-color" content="#000000">
+  <meta name="color-scheme" content="dark light">
+  <!-- Chọn giao diện sáng / tối trước khi vẽ trang (không nháy): lựa chọn đã lưu, nếu chưa có thì theo cài đặt máy -->
+  <script>
+    (function () {
+      var t; try { t = localStorage.getItem("ca_theme"); } catch (e) {}
+      if (t !== "light" && t !== "dark") t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      document.documentElement.dataset.theme = t;
+      document.querySelector('meta[name="theme-color"]').content = t === "light" ? "#ffffff" : "#000000";
+    })();
+  </script>
+  <title>Couple Assistant</title>
+  <meta name="description" content="Gợi ý quán ăn, cà phê hẹn hò ở TP.HCM, hợp khẩu vị cả hai người.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <!-- dấu hiệu: hai vòng tròn giao nhau = hai người, phần giao = quán hợp cả hai -->
+  <symbol id="mark" viewBox="0 0 32 32"><circle cx="12" cy="16" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="20" cy="16" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+</svg>
+
+<div id="app" class="shell" hidden>
+  <!-- Thanh điều hướng: trong suốt trên video, chuyển đen khi cuộn -->
+  <header class="topnav" id="topnav">
+    <button type="button" class="brand" data-go="suggest" aria-label="Couple Assistant, về trang Gợi ý">
+      <svg class="mark" aria-hidden="true"><use href="#mark"/></svg>
+      <span><b>Couple Assistant</b><small id="scope">TP. Hồ Chí Minh</small></span>
+    </button>
+    <b id="top-title" class="only-phone"></b>
+    <div class="theme-switch only-phone top-switch" role="radiogroup" aria-label="Giao diện">
+      <button type="button" role="radio" data-theme-set="dark">Tối</button><button type="button" role="radio" data-theme-set="light">Sáng</button>
+    </div>
+    <nav id="side" class="side" aria-label="Màn hình">
+      <div class="sheet-head only-phone">
+        <span class="sheet-title">Couple Assistant</span>
+        <button type="button" id="menu-close" class="icon-btn" aria-label="Đóng menu">
+          <svg viewBox="0 0 16 16" width="18" height="18"><path d="M3.5 3.5l9 9M12.5 3.5l-9 9" stroke="currentColor" stroke-width="1.5"/></svg></button>
+      </div>
+      <button class="nav active" data-view="suggest">Gợi ý quán</button>
+      <button class="nav" data-view="plan">Lịch trình hẹn hò</button>
+      <button class="nav" data-view="community" id="tab-community" hidden>Cộng đồng</button>
+      <button class="nav" data-view="profile">Hồ sơ của tôi</button>
+      <button class="nav" data-view="stats" id="tab-stats">Thống kê AI</button>
+      <button class="nav" data-view="admin" id="tab-admin" hidden>Phân quyền</button>
+      <div class="side-foot">
+        <p id="status" class="status">Đang kết nối…</p>
+        <div class="user" id="me-row" hidden>
+          <span class="avatar p-a" id="me-avatar"></span>
+          <span><b id="me-name"></b><small id="me-role"></small></span>
+        </div>
+        <div class="theme-switch" role="radiogroup" aria-label="Giao diện">
+          <button type="button" role="radio" data-theme-set="dark">Tối</button><button type="button" role="radio" data-theme-set="light">Sáng</button>
+        </div>
+        <button type="button" id="logout" class="btn ghost small" hidden>Đăng xuất</button>
+      </div>
+    </nav>
+    <button type="button" id="menu" class="icon-btn only-phone" aria-label="Mở menu" aria-controls="side" aria-expanded="false">
+      <svg viewBox="0 0 16 16" width="20" height="20"><path d="M2 5h12M2 11h12" stroke="currentColor" stroke-width="1.5"/></svg></button>
+  </header>
+
+  <main class="canvas">
+    <!-- ===== Gợi ý quán ===== -->
+    <section id="suggest" class="view active">
+      <div class="hero">
+        <video class="hero-video" autoplay muted loop playsinline preload="auto" aria-hidden="true"><source src="/static/media/toast.mp4" type="video/mp4"></video>
+        <div class="hero-shade"></div>
+        <div class="hero-text">
+          <p class="hero-kicker">Một điểm hẹn.</p>
+          <h1 class="hero-title">Vạn khoảnh khắc.</h1>
+          <p class="hero-sub" id="greeting">Quán ăn, cà phê hợp gu cả hai giữa lòng Sài Gòn.</p>
+          <p class="hero-meta" id="today"></p>
+        </div>
+      </div>
+
+      <div class="page">
+        <form id="f-suggest" class="composer">
+          <label for="s-query" class="eyebrow">Hai bạn muốn đi đâu?</label>
+          <textarea id="s-query" name="query" rows="2" required placeholder="Ví dụ: tối thứ 7 đi cà phê yên tĩnh ở Quận 1, tầm 150k một người"></textarea>
+          <div class="chips examples" aria-label="Câu mẫu">
+            <button type="button" class="chip">ăn tối lãng mạn Quận 3 dưới 800k cho 2 người</button>
+            <button type="button" class="chip">cà phê yên tĩnh để trò chuyện lúc 20h</button>
+            <button type="button" class="chip">lẩu ấm cúng ngày mưa ở Bình Thạnh</button>
+          </div>
+          <div class="controls">
+            <div class="field asker"><label for="s-user-a">Người hỏi</label><select id="s-user-a" name="user_a" class="who"></select></div>
+            <div class="field"><label for="s-user-b">Người đi cùng</label><select id="s-user-b" name="user_b" class="who"></select></div>
+            <div class="field narrow"><label for="s-time">Giờ hẹn</label><input id="s-time" type="time" name="at_time"></div>
+            <div class="field narrow"><label for="s-budget">Ngân sách / người</label><input id="s-budget" type="number" name="budget" min="0" step="10000" inputmode="numeric" enterkeyhint="search" placeholder="đồng"></div>
+            <div class="go"><label class="switch"><input id="s-llm" type="checkbox" name="use_llm" checked><span></span>AI chọn quán và viết lý do</label>
+              <button type="submit" class="btn primary">Gợi ý quán <svg width="14" height="14" aria-hidden="true"><use href="#i-arrow"/></svg></button></div>
+          </div>
+        </form>
+
+        <div class="grid">
+          <div class="span-9" id="results-panel">
+            <div class="section-head"><h2>Gợi ý cho hai bạn</h2><span class="count" id="r-count" hidden></span></div>
+            <div id="r-suggest" aria-live="polite"></div>
+          </div>
+          <aside class="panel span-3" id="r-side" aria-live="polite"></aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Lập plan ===== -->
+    <section id="plan" class="view">
+      <div class="hero short">
+        <video class="hero-video" muted loop playsinline preload="metadata" aria-hidden="true"><source src="/static/media/coffee.mp4" type="video/mp4"></video>
+        <div class="hero-shade"></div>
+        <div class="hero-text">
+          <p class="hero-kicker">Buổi tối trọn vẹn</p>
+          <h1 class="hero-title">Lịch trình hẹn hò.</h1>
+          <p class="hero-sub">Ăn tối, cà phê rồi đi dạo. Code kiểm tra giờ mở cửa, quãng đường giữa các chặng và tổng tiền.</p>
+        </div>
+      </div>
+      <div class="page">
+        <form id="f-plan" class="composer">
+          <label for="pl-query" class="eyebrow">Mong muốn cho buổi hẹn</label>
+          <textarea id="pl-query" name="query" rows="2" required placeholder="Ví dụ: hẹn hò yên tĩnh ở Quận 1"></textarea>
+          <div class="controls">
+            <div class="field asker"><label for="pl-user-a">Người hỏi</label><select id="pl-user-a" name="user_a" class="who"></select></div>
+            <div class="field"><label for="pl-user-b">Người đi cùng</label><select id="pl-user-b" name="user_b" class="who"></select></div>
+            <div class="field narrow"><label for="pl-start">Bắt đầu lúc</label><input id="pl-start" type="time" name="start" value="19:00"></div>
+            <div class="field narrow"><label for="pl-budget">Ngân sách / người</label><input id="pl-budget" type="number" name="budget" min="0" step="10000" inputmode="numeric" enterkeyhint="done" placeholder="đồng"></div>
+            <div class="go"><label class="switch"><input id="pl-walk" type="checkbox" name="walk" checked><span></span>Thêm chặng đi dạo</label>
+              <label class="switch"><input id="pl-llm" type="checkbox" name="use_llm" checked><span></span>AI viết ghi chú</label>
+              <button type="submit" class="btn primary">Lập lịch trình <svg width="14" height="14" aria-hidden="true"><use href="#i-arrow"/></svg></button></div>
+          </div>
+        </form>
+        <div id="r-plan" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- ===== Hồ sơ ===== -->
+    <section id="profile" class="view">
+      <div class="page plain">
+        <p class="eyebrow">Sở thích của bạn</p>
+        <h1 class="page-title">Hồ sơ của tôi</h1>
+        <p class="subline" id="p-sub">Sở thích giúp AI chọn quán hợp cả hai. Chỉ lưu khi bạn đồng ý, xóa được bất cứ lúc nào.</p>
+        <form id="f-profile" class="settings">
+          <div class="set-row">
+            <div class="set-label"><h2>Thông tin</h2><p>Tên hiển thị là tên người đi cùng nhìn thấy khi chọn bạn.</p></div>
+            <div class="set-panel">
+              <div class="field" id="p-pick-wrap"><label for="p-pick">Hồ sơ đang sửa</label><select id="p-pick"></select></div>
+              <div class="field"><label for="p-user">Mã hồ sơ</label><input id="p-user" name="user_id" required pattern="[A-Za-z0-9_\-]+" autocapitalize="none" autocorrect="off" spellcheck="false"></div>
+              <div class="field"><label for="p-name">Tên hiển thị</label><input id="p-name" name="display_name" maxlength="60"></div>
+              <div class="field"><label for="p-plan">Gói AI</label><select name="plan" id="p-plan" aria-describedby="p-plan-help"></select>
+                <p class="help" id="p-plan-help">Số lượt AI mỗi ngày. Chỉ quản trị viên đổi được gói.</p></div>
+            </div>
+          </div>
+          <div class="set-row">
+            <div class="set-label"><h2>Sở thích</h2><p>Sở thích chung của hai người được ưu tiên gấp đôi khi xếp hạng.</p>
+              <p class="picked" id="p-picked">Chưa chọn sở thích nào</p></div>
+            <div class="set-panel" id="p-interests"></div>
+          </div>
+          <div class="set-row">
+            <div class="set-label"><h2>Chia sẻ và đồng ý</h2><p>Nút Lưu ở đây lưu toàn bộ hồ sơ.</p></div>
+            <div class="set-panel">
+              <label class="switch-row"><span><b>Cho người đi cùng dùng sở thích của tôi</b>
+                <small>Khi người kia hỏi gợi ý, AI được tính cả sở thích của bạn. Mặc định tắt.</small></span>
+                <span class="switch"><input id="p-share" type="checkbox" name="share"><span></span></span></label>
+              <label class="switch-row"><span><b>Tôi đồng ý lưu hồ sơ này</b>
+                <small>Chỉ lưu trên máy chủ này, không chia sẻ cho bên khác.</small></span>
+                <span class="switch"><input id="p-consent" type="checkbox" name="consent" aria-describedby="p-consent-err"><span></span></span></label>
+              <p id="p-consent-err" class="field-error" role="alert" hidden>Cần bật đồng ý thì mới lưu được hồ sơ.</p>
+              <div class="actions end"><button type="submit" class="btn primary">Lưu hồ sơ</button></div>
+              <div id="r-profile" role="status"></div>
+            </div>
+          </div>
+          <div class="set-row danger-zone">
+            <div class="set-label"><h2>Xóa dữ liệu</h2><p>Xóa vĩnh viễn, không khôi phục được.</p></div>
+            <div class="set-panel">
+              <div class="danger-line"><span>Xóa hồ sơ sở thích. Tài khoản vẫn giữ để đăng nhập.</span>
+                <button type="button" id="p-delete" class="btn danger">Xóa hồ sơ</button></div>
+              <div class="danger-line" id="p-delete-account-row"><span>Xóa tài khoản cùng hồ sơ và đăng xuất.</span>
+                <button type="button" id="p-delete-account" class="btn danger">Xóa tài khoản</button></div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== Thống kê ===== -->
+    <section id="stats" class="view">
+      <div class="page plain">
+        <div class="title-row"><div><p class="eyebrow">Dành cho quản trị viên</p><h1 class="page-title">Thống kê AI</h1>
+          <p class="subline" id="st-sub">Mọi yêu cầu có hồ sơ, từ khi bắt đầu ghi nhật ký.</p></div>
+          <button type="button" id="s-refresh" class="btn ghost">Tải lại</button></div>
+        <div id="r-stats" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- ===== Phân quyền (chỉ quản trị viên) — vẽ bởi static/admin.js ===== -->
+    <section id="admin" class="view">
+      <div class="page plain">
+        <div class="title-row"><div><p class="eyebrow">Dành cho quản trị viên</p><h1 class="page-title">Phân quyền</h1>
+          <p class="subline">Vai trò, gói AI và mật khẩu của từng tài khoản. Quản trị viên dùng AI không giới hạn lượt.</p></div>
+          <button type="button" id="ad-refresh" class="btn ghost">Tải lại</button></div>
+        <div id="r-admin" aria-live="polite"></div>
+        <div class="pm">
+          <p class="eyebrow">Hiện trên thẻ gợi ý và plan</p>
+          <h2 class="pm-title">Ảnh &amp; menu quán</h2>
+          <form id="pm-find" class="pm-find" role="search">
+            <input id="pm-q" type="search" maxlength="80" placeholder="Tìm quán theo tên, quận, đường (không dấu cũng được)" aria-label="Tìm quán">
+            <button type="submit" class="btn ghost">Tìm</button>
+          </form>
+          <div id="pm-list" aria-live="polite"></div>
+          <div id="pm-editor"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Cộng đồng: mạng xã hội Lovespot (thư mục social/), dùng chung đăng nhập ===== -->
+    <section id="community" class="view">
+      <div class="page plain community-head">
+        <p class="eyebrow">Mạng xã hội Lovespot</p>
+        <h1 class="page-title">Cộng đồng</h1>
+        <p class="subline">Người cùng gu, review và check-in ở những quán thật trong 853 quán của Couple Assistant.</p>
+        <nav class="subtabs" aria-label="Mục trong Cộng đồng">
+          <button type="button" data-sub="feed" class="on" aria-current="page">Bảng tin</button>
+          <button type="button" data-sub="network">Kết nối <b class="sub-badge" id="sb-network" hidden></b></button>
+          <button type="button" data-sub="places">Quán</button>
+          <button type="button" data-sub="notifications">Thông báo <b class="sub-badge" id="sb-notifications" hidden></b></button>
+          <button type="button" data-sub="me">Hồ sơ cộng đồng</button>
+        </nav>
+      </div>
+      <iframe id="community-frame" class="community-frame" title="Cộng đồng Lovespot: bảng tin, kết nối, quán" scrolling="no"></iframe>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p class="foot-word">Couple Assistant</p>
+    <p>Dữ liệu: Foody, ShopeeFood. Lý do gợi ý chỉ dựa trên review thật. <a href="/docs" target="_blank" rel="noopener">Tài liệu API</a></p>
+  </footer>
+</div>
+
+<!-- ===== Đăng nhập (đặt sau ứng dụng để h1 đầu trang là màn hình đang mở) ===== -->
+<div id="auth" class="auth-wrap" hidden>
+  <video class="hero-video" autoplay muted loop playsinline preload="auto" aria-hidden="true"><source src="/static/media/toast.mp4" type="video/mp4"></video>
+  <div class="hero-shade"></div>
+  <div class="theme-switch auth-switch" role="radiogroup" aria-label="Giao diện">
+    <button type="button" role="radio" data-theme-set="dark">Tối</button><button type="button" role="radio" data-theme-set="light">Sáng</button>
+  </div>
+  <form id="f-login" class="auth">
+    <p class="hero-kicker">Một điểm hẹn.</p>
+    <h1 class="hero-title">Couple Assistant</h1>
+    <p class="lede">Gợi ý quán ăn, cà phê hẹn hò ở TP.HCM, hợp khẩu vị cả hai người.</p>
+    <label for="l-user">Tên đăng nhập</label>
+    <input id="l-user" name="user_id" required pattern="[A-Za-z0-9_\-]{1,40}" autocomplete="username" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="next" aria-describedby="l-help">
+    <label for="l-pass">Mật khẩu</label>
+    <input id="l-pass" name="password" type="password" required minlength="8" autocomplete="current-password" enterkeyhint="go" aria-describedby="l-help">
+    <p id="l-help" class="help">Tên: chữ không dấu, số, _ hoặc -. Mật khẩu từ 8 ký tự.</p>
+    <div class="actions">
+      <button type="submit" class="btn primary">Đăng nhập</button>
+      <button type="button" id="l-register" class="btn ghost">Tạo tài khoản mới</button>
+    </div>
+    <div id="r-login" role="alert"></div>
+    <p id="auth-status" class="help"></p>
+  </form>
+</div>
+<script src="/static/placemedia.js"></script>
+<script src="/static/app.js"></script>
+<script src="/static/admin.js"></script>
+<script src="/static/theme.js"></script>
+</body>
+</html>
